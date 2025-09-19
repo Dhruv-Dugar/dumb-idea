@@ -22,16 +22,43 @@ st.set_page_config(
 st.markdown("""
 <style>
     .metric-card {
-        background-color: #f0f2f6;
+        background-color: #2d3748;
         padding: 1rem;
         border-radius: 0.5rem;
-        border: 1px solid #e0e0e0;
+        border: 1px solid #4a5568;
+        color: white;
     }
     .stMetric {
-        background-color: white;
-        padding: 1rem;
-        border-radius: 0.5rem;
-        border: 1px solid #e0e0e0;
+        background-color: #2d3748 !important;
+        padding: 1rem !important;
+        border-radius: 0.5rem !important;
+        border: 1px solid #4a5568 !important;
+        color: white !important;
+    }
+    .stMetric > div {
+        color: white !important;
+    }
+    .stMetric label {
+        color: #e2e8f0 !important;
+    }
+    .stMetric [data-testid="metric-container"] {
+        background-color: #2d3748 !important;
+        border: 1px solid #4a5568 !important;
+        padding: 1rem !important;
+        border-radius: 0.5rem !important;
+        color: white !important;
+    }
+    .stMetric [data-testid="metric-container"] > div {
+        color: white !important;
+    }
+    .stMetric [data-testid="metric-container"] label {
+        color: #cbd5e0 !important;
+    }
+    .stMetric [data-testid="metric-container"] [data-testid="metric-value"] {
+        color: white !important;
+    }
+    .stMetric [data-testid="metric-container"] [data-testid="metric-delta"] {
+        color: #a0aec0 !important;
     }
 </style>
 """, unsafe_allow_html=True)
