@@ -16,6 +16,13 @@ from requests.exceptions import ConnectionError, Timeout, RequestException
 from urllib3.exceptions import ProtocolError
 from http.client import RemoteDisconnected
 
+# Page configuration (must be first Streamlit command)
+st.set_page_config(
+    page_title="Portfolio Simulation Dashboard",
+    page_icon="📈",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 
 # Configure logging
 @st.cache_resource
@@ -51,14 +58,6 @@ def setup_logging():
 # Initialize logger
 logger = setup_logging()
 
-
-# Page configuration
-st.set_page_config(
-    page_title="Portfolio Simulation Dashboard",
-    page_icon="📈",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
 
 # Custom CSS for better styling
 st.markdown("""
