@@ -1,0 +1,1172 @@
+2025-09-19 20:54:47,419 - portfolio_simulation - INFO - Loading stock list from: ind_niftytotalmarket_list.csv
+2025-09-19 20:54:47,425 - portfolio_simulation - INFO - Successfully loaded 752 stocks from CSV file
+2025-09-19 20:54:47,430 - portfolio_simulation - INFO - Starting batch of 10 simulations from 2024-01-01 to 2024-12-31
+2025-09-19 20:54:47,431 - portfolio_simulation - INFO - Starting simulation 1/10
+2025-09-19 20:54:47,432 - portfolio_simulation - INFO - Starting portfolio simulation: 2024-01-01 to 2024-12-31, 20 stocks, ₹1,000,000 capital
+2025-09-19 20:54:47,432 - portfolio_simulation - INFO - Generated 12 monthly periods for simulation
+2025-09-19 20:54:47,433 - portfolio_simulation - INFO - Processing month 1/12: 2024-01-01 to 2024-01-31
+2025-09-19 20:54:47,445 - portfolio_simulation - INFO - Selected stocks for month 1: ['POLYMED', 'ENGINERSIN', 'WELSPUNLIV', 'PATELENG', 'OPTIEMUS', 'GABRIEL', 'VENUSPIPES', 'PAYTM', 'JINDWORLD', 'USHAMART', 'EDELWEISS', 'VENTIVE', 'SANOFI', 'BHARATFORG', 'CARBORUNIV', 'VMM', 'SUNTECK', 'NUVOCO', 'SBILIFE', 'RHIM']
+2025-09-19 20:54:49,628 - portfolio_simulation - WARNING - Error fetching VENTIVE: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:54:50,379 - portfolio_simulation - WARNING - Error fetching VMM: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:54:51,095 - portfolio_simulation - INFO - Month 1: 18 valid stocks, 2 failed stocks
+2025-09-19 20:54:51,095 - portfolio_simulation - INFO - Month 1: ₹55,555.56 allocated per stock
+2025-09-19 20:54:51,098 - portfolio_simulation - INFO - Month 1 completed in 3.67s: Return -0.23%, Capital ₹997,656.28
+2025-09-19 20:54:51,098 - portfolio_simulation - INFO - Processing month 2/12: 2024-02-01 to 2024-02-29
+2025-09-19 20:54:51,104 - portfolio_simulation - INFO - Selected stocks for month 2: ['GATEWAY', 'HFCL', 'INFY', 'CIPLA', 'IRCTC', 'RAMCOCEM', 'VBL', 'HCG', 'ZENSARTECH', 'AVANTIFEED', 'BLUEJET', 'BLUEDART', 'VOLTAS', 'PARKHOTELS', 'MAXHEALTH', 'IRFC', 'AURIONPRO', 'SONACOMS', 'ERIS', 'TIINDIA']
+2025-09-19 20:54:54,145 - portfolio_simulation - WARNING - Error fetching AURIONPRO: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:54:54,682 - portfolio_simulation - INFO - Month 2: 19 valid stocks, 1 failed stocks
+2025-09-19 20:54:54,682 - portfolio_simulation - INFO - Month 2: ₹52,508.23 allocated per stock
+2025-09-19 20:54:54,692 - portfolio_simulation - INFO - Month 2 completed in 3.59s: Return 1.90%, Capital ₹1,016,660.12
+2025-09-19 20:54:54,692 - portfolio_simulation - INFO - Processing month 3/12: 2024-03-01 to 2024-03-31
+2025-09-19 20:54:54,700 - portfolio_simulation - INFO - Selected stocks for month 3: ['MAXESTATES', 'BSOFT', 'THANGAMAYL', 'EMBDL', 'IOB', 'INDHOTEL', 'OLAELEC', 'SOUTHBANK', 'MSTCLTD', 'ANANTRAJ', 'PGIL', 'PARAS', 'ABFRL', 'STARHEALTH', 'LT', 'BIKAJI', 'STYLAMIND', 'ETERNAL', 'ARVIND', 'TATACHEM']
+2025-09-19 20:54:56,085 - portfolio_simulation - WARNING - Error fetching OLAELEC: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:54:58,626 - portfolio_simulation - INFO - Month 3: 19 valid stocks, 1 failed stocks
+2025-09-19 20:54:58,626 - portfolio_simulation - INFO - Month 3: ₹53,508.43 allocated per stock
+2025-09-19 20:54:58,627 - portfolio_simulation - INFO - Month 3 completed in 3.93s: Return 5.27%, Capital ₹1,070,272.73
+2025-09-19 20:54:58,627 - portfolio_simulation - INFO - Processing month 4/12: 2024-04-01 to 2024-04-30
+2025-09-19 20:54:58,630 - portfolio_simulation - INFO - Selected stocks for month 4: ['CHOLAHLDNG', 'PAISALO', 'BANKBARODA', 'JSWSTEEL', 'ALKEM', 'ULTRACEMCO', 'ANUP', 'SUBROS', 'FEDERALBNK', 'POLYCAB', 'PATANJALI', 'WAAREEENER', 'JSWHL', 'J&KBANK', 'CHOLAFIN', 'NEOGEN', 'ELECTCAST', 'NEWGEN', 'ZYDUSWELL', 'EQUITASBNK']
+2025-09-19 20:55:01,095 - portfolio_simulation - WARNING - Error fetching WAAREEENER: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:55:02,710 - portfolio_simulation - INFO - Month 4: 19 valid stocks, 1 failed stocks
+2025-09-19 20:55:02,711 - portfolio_simulation - INFO - Month 4: ₹56,330.14 allocated per stock
+2025-09-19 20:55:02,712 - portfolio_simulation - INFO - Month 4 completed in 4.09s: Return -0.80%, Capital ₹1,061,678.87
+2025-09-19 20:55:02,713 - portfolio_simulation - INFO - Processing month 5/12: 2024-05-01 to 2024-05-31
+2025-09-19 20:55:02,716 - portfolio_simulation - INFO - Selected stocks for month 5: ['AGI', 'GUJGASLTD', 'SBICARD', '360ONE', 'INFY', 'POWERGRID', 'DATAMATICS', 'ASTRAMICRO', 'CYIENTDLM', 'COFORGE', 'VARROC', 'AWFIS', 'SAREGAMA', 'GLENMARK', 'CESC', 'APOLLOTYRE', 'SONACOMS', 'MASTEK', 'SRF', 'HEIDELBERG']
+2025-09-19 20:55:06,622 - portfolio_simulation - INFO - Month 5: 20 valid stocks, 0 failed stocks
+2025-09-19 20:55:06,622 - portfolio_simulation - INFO - Month 5: ₹53,083.94 allocated per stock
+2025-09-19 20:55:06,625 - portfolio_simulation - INFO - Month 5 completed in 3.91s: Return 1.86%, Capital ₹1,081,373.80
+2025-09-19 20:55:06,625 - portfolio_simulation - INFO - Processing month 6/12: 2024-06-01 to 2024-06-30
+2025-09-19 20:55:06,632 - portfolio_simulation - INFO - Selected stocks for month 6: ['KAYNES', 'KSB', 'ECLERX', 'UNIMECH', 'SYNGENE', 'DBL', 'ISGEC', 'VMART', 'DABUR', 'NEULANDLAB', 'PAISALO', 'TRITURBINE', 'KIMS', 'NAVINFLUOR', 'DCXINDIA', 'ABSLAMC', 'ASTRAMICRO', 'UTIAMC', 'NETWORK18', 'JINDALSAW']
+2025-09-19 20:55:07,453 - portfolio_simulation - WARNING - Error fetching UNIMECH: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:55:11,071 - portfolio_simulation - INFO - Month 6: 19 valid stocks, 1 failed stocks
+2025-09-19 20:55:11,071 - portfolio_simulation - INFO - Month 6: ₹56,914.41 allocated per stock
+2025-09-19 20:55:11,073 - portfolio_simulation - INFO - Month 6 completed in 4.45s: Return -9.97%, Capital ₹973,589.69
+2025-09-19 20:55:11,073 - portfolio_simulation - INFO - Processing month 7/12: 2024-07-01 to 2024-07-31
+2025-09-19 20:55:11,080 - portfolio_simulation - INFO - Selected stocks for month 7: ['INOXINDIA', 'MANAPPURAM', 'NTPC', 'MANINFRA', 'EPL', 'POWERMECH', 'HEROMOTOCO', 'CONCORDBIO', 'CREDITACC', 'NEOGEN', 'INFY', 'JKTYRE', 'SHREECEM', 'MASTEK', 'NAM-INDIA', 'IOB', 'PIIND', 'THOMASCOOK', 'MOTHERSON', 'JSWSTEEL']
+2025-09-19 20:55:15,531 - portfolio_simulation - INFO - Month 7: 20 valid stocks, 0 failed stocks
+2025-09-19 20:55:15,531 - portfolio_simulation - INFO - Month 7: ₹48,679.48 allocated per stock
+2025-09-19 20:55:15,534 - portfolio_simulation - INFO - Month 7 completed in 4.46s: Return -3.95%, Capital ₹935,135.39
+2025-09-19 20:55:15,534 - portfolio_simulation - INFO - Processing month 8/12: 2024-08-01 to 2024-08-31
+2025-09-19 20:55:15,540 - portfolio_simulation - INFO - Selected stocks for month 8: ['NCC', 'RELIANCE', 'LXCHEM', 'BEPL', 'INTELLECT', 'ACI', 'MRF', 'CHAMBLFERT', 'RADICO', 'WESTLIFE', 'JAMNAAUTO', 'ICICIPRULI', 'CONCOR', 'VOLTAMP', 'RAMCOCEM', 'INDHOTEL', 'CLEAN', 'ROUTE', 'FINPIPE', 'THANGAMAYL']
+2025-09-19 20:55:19,786 - portfolio_simulation - INFO - Month 8: 20 valid stocks, 0 failed stocks
+2025-09-19 20:55:19,786 - portfolio_simulation - INFO - Month 8: ₹46,756.77 allocated per stock
+2025-09-19 20:55:19,789 - portfolio_simulation - INFO - Month 8 completed in 4.25s: Return -0.78%, Capital ₹927,852.15
+2025-09-19 20:55:19,789 - portfolio_simulation - INFO - Processing month 9/12: 2024-09-01 to 2024-09-30
+2025-09-19 20:55:19,796 - portfolio_simulation - INFO - Selected stocks for month 9: ['SUPRAJIT', 'PGIL', 'BOSCHLTD', 'ICICIBANK', 'IMFA', 'JCHAC', 'ZYDUSWELL', 'MTARTECH', 'BEPL', 'NH', 'AETHER', 'LT', 'BPCL', '3MINDIA', 'UJJIVANSFB', 'GREAVESCOT', 'APARINDS', 'THOMASCOOK', 'BIOCON', 'USHAMART']
+2025-09-19 20:55:24,044 - portfolio_simulation - INFO - Month 9: 20 valid stocks, 0 failed stocks
+2025-09-19 20:55:24,044 - portfolio_simulation - INFO - Month 9: ₹46,392.61 allocated per stock
+2025-09-19 20:55:24,046 - portfolio_simulation - INFO - Month 9 completed in 4.26s: Return -0.43%, Capital ₹923,836.77
+2025-09-19 20:55:24,046 - portfolio_simulation - INFO - Processing month 10/12: 2024-10-01 to 2024-10-31
+2025-09-19 20:55:24,049 - portfolio_simulation - INFO - Selected stocks for month 10: ['CELLO', 'LTTS', 'MAPMYINDIA', 'DCMSHRIRAM', 'NATCOPHARM', 'PATANJALI', 'VENUSPIPES', 'MANYAVAR', 'AJANTPHARM', 'STLNETWORK', 'FDC', 'LICHSGFIN', 'GLAXO', 'TIINDIA', 'IRCON', 'NBCC', 'JSWENERGY', 'J&KBANK', 'CESC', 'CANBK']
+2025-09-19 20:55:25,212 - portfolio_simulation - WARNING - Error fetching STLNETWORK: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:55:25,878 - portfolio_simulation - INFO - Month 10: 19 valid stocks, 1 failed stocks
+2025-09-19 20:55:25,878 - portfolio_simulation - INFO - Month 10: ₹48,622.99 allocated per stock
+2025-09-19 20:55:25,881 - portfolio_simulation - INFO - Month 10 completed in 1.83s: Return 9.08%, Capital ₹1,007,732.42
+2025-09-19 20:55:25,881 - portfolio_simulation - INFO - Processing month 11/12: 2024-11-01 to 2024-11-30
+2025-09-19 20:55:25,887 - portfolio_simulation - INFO - Selected stocks for month 11: ['INDIASHLTR', 'CMSINFO', 'BIRLACORPN', 'GNFC', 'EIHOTEL', 'GPIL', 'SHAREINDIA', 'HYUNDAI', 'CGPOWER', 'APOLLOHOSP', 'REFEX', 'BOSCHLTD', 'LUXIND', 'ULTRACEMCO', 'CARTRADE', 'TCS', 'DBL', 'M&M', 'CERA', 'VMM']
+2025-09-19 20:55:28,505 - portfolio_simulation - WARNING - Error fetching REFEX: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:55:30,403 - portfolio_simulation - WARNING - Error fetching VMM: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:55:30,403 - portfolio_simulation - INFO - Month 11: 18 valid stocks, 2 failed stocks
+2025-09-19 20:55:30,404 - portfolio_simulation - INFO - Month 11: ₹55,985.13 allocated per stock
+2025-09-19 20:55:30,407 - portfolio_simulation - INFO - Month 11 completed in 4.53s: Return 0.37%, Capital ₹1,011,446.79
+2025-09-19 20:55:30,407 - portfolio_simulation - INFO - Processing month 12/12: 2024-12-01 to 2024-12-31
+2025-09-19 20:55:30,413 - portfolio_simulation - INFO - Selected stocks for month 12: ['IDFCFIRSTB', 'DIXON', 'SRF', 'BANKINDIA', 'GAIL', 'INFY', 'PFIZER', 'CDSL', 'SAMMAANCAP', 'COCHINSHIP', 'UCOBANK', 'GUJGASLTD', 'TRIDENT', 'NATIONALUM', 'ABB', 'TATACOMM', 'ZAGGLE', 'HEMIPROP', 'RITES', 'TIIL']
+2025-09-19 20:55:35,211 - portfolio_simulation - INFO - Month 12: 20 valid stocks, 0 failed stocks
+2025-09-19 20:55:35,211 - portfolio_simulation - INFO - Month 12: ₹50,572.34 allocated per stock
+2025-09-19 20:55:35,214 - portfolio_simulation - INFO - Month 12 completed in 4.81s: Return 2.87%, Capital ₹1,040,493.29
+2025-09-19 20:55:35,215 - portfolio_simulation - INFO - Simulation completed in 47.78s: Total return 4.05%, 231 trades executed
+2025-09-19 20:55:35,215 - portfolio_simulation - INFO - Simulation 1 completed successfully in 47.78s (Total return: 4.05%)
+2025-09-19 20:55:35,228 - portfolio_simulation - INFO - Starting simulation 2/10
+2025-09-19 20:55:35,228 - portfolio_simulation - INFO - Starting portfolio simulation: 2024-01-01 to 2024-12-31, 20 stocks, ₹1,000,000 capital
+2025-09-19 20:55:35,229 - portfolio_simulation - INFO - Generated 12 monthly periods for simulation
+2025-09-19 20:55:35,230 - portfolio_simulation - INFO - Processing month 1/12: 2024-01-01 to 2024-01-31
+2025-09-19 20:55:35,237 - portfolio_simulation - INFO - Selected stocks for month 1: ['SFL', 'RAINBOW', 'HINDPETRO', 'ENGINERSIN', 'NAVA', 'WEBELSOLAR', 'IONEXCHANG', 'SUNTECK', 'LAURUSLABS', 'TATACOMM', 'NBCC', 'INFY', 'INDIGOPNTS', 'AARTIPHARM', 'ADANIENSOL', 'GAEL', 'LUXIND', 'AIIL', 'SBFC', 'ROSSARI']
+2025-09-19 20:55:38,542 - portfolio_simulation - WARNING - Error fetching AIIL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:55:38,874 - portfolio_simulation - INFO - Month 1: 19 valid stocks, 1 failed stocks
+2025-09-19 20:55:38,875 - portfolio_simulation - INFO - Month 1: ₹52,631.58 allocated per stock
+2025-09-19 20:55:38,877 - portfolio_simulation - INFO - Month 1 completed in 3.65s: Return -4.30%, Capital ₹956,956.72
+2025-09-19 20:55:38,877 - portfolio_simulation - INFO - Processing month 2/12: 2024-02-01 to 2024-02-29
+2025-09-19 20:55:38,884 - portfolio_simulation - INFO - Selected stocks for month 2: ['SHILPAMED', 'GAIL', 'AAVAS', 'TATAELXSI', 'SENCO', 'PARADEEP', 'DMART', 'JSWHL', 'BEPL', 'RTNPOWER', 'NMDC', 'VENUSPIPES', 'INOXINDIA', 'ANGELONE', 'CENTURYPLY', 'WABAG', 'IGL', 'ACE', 'ACMESOLAR', 'POWERMECH']
+2025-09-19 20:55:43,102 - portfolio_simulation - WARNING - Error fetching ACMESOLAR: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:55:43,353 - portfolio_simulation - INFO - Month 2: 19 valid stocks, 1 failed stocks
+2025-09-19 20:55:43,353 - portfolio_simulation - INFO - Month 2: ₹50,366.14 allocated per stock
+2025-09-19 20:55:43,356 - portfolio_simulation - INFO - Month 2 completed in 4.48s: Return -2.89%, Capital ₹929,330.00
+2025-09-19 20:55:43,356 - portfolio_simulation - INFO - Processing month 3/12: 2024-03-01 to 2024-03-31
+2025-09-19 20:55:43,361 - portfolio_simulation - INFO - Selected stocks for month 3: ['JBMA', 'MANKIND', 'SUPRAJIT', 'SBILIFE', 'KAJARIACER', 'CCL', 'HINDPETRO', 'ARE&M', 'TRANSRAILL', 'JSL', 'JUBLFOOD', 'MAXESTATES', 'TATACHEM', 'PPLPHARMA', 'TIRUMALCHM', 'ASKAUTOLTD', 'MUTHOOTFIN', 'GRANULES', 'NTPCGREEN', 'SYNGENE']
+2025-09-19 20:55:45,300 - portfolio_simulation - WARNING - Error fetching TRANSRAILL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:55:46,975 - portfolio_simulation - WARNING - Error fetching NTPCGREEN: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:55:47,153 - portfolio_simulation - INFO - Month 3: 18 valid stocks, 2 failed stocks
+2025-09-19 20:55:47,154 - portfolio_simulation - INFO - Month 3: ₹51,629.44 allocated per stock
+2025-09-19 20:55:47,156 - portfolio_simulation - INFO - Month 3 completed in 3.80s: Return 2.86%, Capital ₹955,940.16
+2025-09-19 20:55:47,156 - portfolio_simulation - INFO - Processing month 4/12: 2024-04-01 to 2024-04-30
+2025-09-19 20:55:47,161 - portfolio_simulation - INFO - Selected stocks for month 4: ['OLAELEC', 'FLUOROCHEM', 'KIRLOSBROS', 'BAJAJHFL', 'LALPATHLAB', 'INFY', 'ABBOTINDIA', 'GOKEX', 'TIRUMALCHM', 'SUNDARMFIN', 'GULFOILLUB', 'SOUTHBANK', 'LTF', 'MUTHOOTFIN', 'FINEORG', 'WESTLIFE', 'BOMDYEING', 'ECLERX', 'HINDPETRO', 'DODLA']
+2025-09-19 20:55:47,318 - portfolio_simulation - WARNING - Error fetching OLAELEC: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:55:47,790 - portfolio_simulation - WARNING - Error fetching BAJAJHFL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:55:51,088 - portfolio_simulation - INFO - Month 4: 18 valid stocks, 2 failed stocks
+2025-09-19 20:55:51,088 - portfolio_simulation - INFO - Month 4: ₹53,107.79 allocated per stock
+2025-09-19 20:55:51,091 - portfolio_simulation - INFO - Month 4 completed in 3.94s: Return -7.01%, Capital ₹888,934.51
+2025-09-19 20:55:51,091 - portfolio_simulation - INFO - Processing month 5/12: 2024-05-01 to 2024-05-31
+2025-09-19 20:55:51,096 - portfolio_simulation - INFO - Selected stocks for month 5: ['BANSALWIRE', 'TIIL', 'GOPAL', 'BAJAJFINSV', 'KIRLPNU', 'MAXHEALTH', 'WELSPUNLIV', 'ASKAUTOLTD', 'LICI', 'BLACKBUCK', 'RELIGARE', 'CUMMINSIND', 'ADANIGREEN', 'GATEWAY', 'CLEAN', 'SIGNATURE', 'HDFCBANK', 'WAAREEENER', 'REDTAPE', 'LTFOODS']
+2025-09-19 20:55:51,264 - portfolio_simulation - WARNING - Error fetching BANSALWIRE: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:55:52,931 - portfolio_simulation - WARNING - Error fetching BLACKBUCK: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:55:54,484 - portfolio_simulation - WARNING - Error fetching WAAREEENER: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:55:54,901 - portfolio_simulation - INFO - Month 5: 17 valid stocks, 3 failed stocks
+2025-09-19 20:55:54,901 - portfolio_simulation - INFO - Month 5: ₹52,290.27 allocated per stock
+2025-09-19 20:55:54,903 - portfolio_simulation - INFO - Month 5 completed in 3.81s: Return 1.48%, Capital ₹902,046.56
+2025-09-19 20:55:54,903 - portfolio_simulation - INFO - Processing month 6/12: 2024-06-01 to 2024-06-30
+2025-09-19 20:55:54,910 - portfolio_simulation - INFO - Selected stocks for month 6: ['BATAINDIA', 'DYNAMATECH', 'SULA', 'LALPATHLAB', 'AADHARHFC', 'ALKYLAMINE', 'DATAMATICS', 'SANSERA', 'PNBHOUSING', 'CLEAN', 'BRITANNIA', 'JTLIND', 'TANLA', 'SAREGAMA', 'NAUKRI', 'ASHOKLEY', 'APARINDS', 'LAURUSLABS', 'BRIGADE', 'LTFOODS']
+2025-09-19 20:55:58,397 - portfolio_simulation - INFO - Month 6: 20 valid stocks, 0 failed stocks
+2025-09-19 20:55:58,397 - portfolio_simulation - INFO - Month 6: ₹45,102.33 allocated per stock
+2025-09-19 20:55:58,400 - portfolio_simulation - INFO - Month 6 completed in 3.50s: Return -6.61%, Capital ₹842,384.78
+2025-09-19 20:55:58,400 - portfolio_simulation - INFO - Processing month 7/12: 2024-07-01 to 2024-07-31
+2025-09-19 20:55:58,418 - portfolio_simulation - INFO - Selected stocks for month 7: ['NLCINDIA', 'SWANCORP', 'HIKAL', 'JYOTHYLAB', 'IRCTC', 'SBIN', 'ENTERO', 'ROSSARI', 'BAJAJHFL', 'ASHOKLEY', 'RTNINDIA', 'GABRIEL', 'POWERGRID', 'WELSPUNLIV', 'BSOFT', 'SUNPHARMA', 'GUJGASLTD', 'FDC', 'ENGINERSIN', 'ANANDRATHI']
+2025-09-19 20:56:00,216 - portfolio_simulation - WARNING - Error fetching BAJAJHFL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:56:02,027 - portfolio_simulation - INFO - Month 7: 19 valid stocks, 1 failed stocks
+2025-09-19 20:56:02,027 - portfolio_simulation - INFO - Month 7: ₹44,336.04 allocated per stock
+2025-09-19 20:56:02,030 - portfolio_simulation - INFO - Month 7 completed in 3.63s: Return -6.27%, Capital ₹789,606.80
+2025-09-19 20:56:02,030 - portfolio_simulation - INFO - Processing month 8/12: 2024-08-01 to 2024-08-31
+2025-09-19 20:56:02,037 - portfolio_simulation - INFO - Selected stocks for month 8: ['IXIGO', 'USHAMART', 'PGIL', 'AUBANK', 'RVNL', 'HINDALCO', 'MARICO', 'KRBL', 'HERITGFOOD', 'GPPL', 'PARAS', 'PREMIERENE', 'SONATSOFTW', 'FACT', 'CUMMINSIND', 'HBLENGINE', 'JUBLINGREA', 'THANGAMAYL', 'APOLLOHOSP', 'BORORENEW']
+2025-09-19 20:56:03,995 - portfolio_simulation - WARNING - Error fetching PARAS: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:56:04,156 - portfolio_simulation - WARNING - Error fetching PREMIERENE: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:56:05,822 - portfolio_simulation - INFO - Month 8: 18 valid stocks, 2 failed stocks
+2025-09-19 20:56:05,822 - portfolio_simulation - INFO - Month 8: ₹43,867.04 allocated per stock
+2025-09-19 20:56:05,824 - portfolio_simulation - INFO - Month 8 completed in 3.79s: Return 0.19%, Capital ₹791,082.81
+2025-09-19 20:56:05,824 - portfolio_simulation - INFO - Processing month 9/12: 2024-09-01 to 2024-09-30
+2025-09-19 20:56:05,831 - portfolio_simulation - INFO - Selected stocks for month 9: ['JAIBALAJI', 'PFIZER', 'NBCC', 'BORORENEW', 'INDIACEM', 'EMAMILTD', 'YATHARTH', 'AVANTIFEED', 'DELHIVERY', 'KAYNES', 'ORCHPHARMA', 'ICICIPRULI', 'ASTRAMICRO', 'VESUVIUS', 'ZENTEC', 'MOTILALOFS', 'CUMMINSIND', 'EIEL', 'LODHA', 'AARTIIND']
+2025-09-19 20:56:09,573 - portfolio_simulation - WARNING - Error fetching EIEL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:56:10,031 - portfolio_simulation - INFO - Month 9: 19 valid stocks, 1 failed stocks
+2025-09-19 20:56:10,031 - portfolio_simulation - INFO - Month 9: ₹41,635.94 allocated per stock
+2025-09-19 20:56:10,033 - portfolio_simulation - INFO - Month 9 completed in 4.21s: Return 0.15%, Capital ₹792,288.77
+2025-09-19 20:56:10,033 - portfolio_simulation - INFO - Processing month 10/12: 2024-10-01 to 2024-10-31
+2025-09-19 20:56:10,039 - portfolio_simulation - INFO - Selected stocks for month 10: ['INNOVACAP', 'UCOBANK', 'CAPLIPOINT', 'BAJFINANCE', 'DALBHARAT', 'DUMMYDBRLT', 'SHAREINDIA', 'PRINCEPIPE', 'DRREDDY', 'GMRP&UI', 'TTML', 'CHENNPETRO', 'RTNPOWER', 'PRSMJOHNSN', 'LTIM', 'KARURVYSYA', 'BHARTIARTL', 'SCHNEIDER', 'AARTIDRUGS', 'KSCL']
+2025-09-19 20:56:10,908 - portfolio_simulation - WARNING - Error fetching DUMMYDBRLT: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:56:11,998 - portfolio_simulation - INFO - Month 10: 19 valid stocks, 1 failed stocks
+2025-09-19 20:56:11,998 - portfolio_simulation - INFO - Month 10: ₹41,699.41 allocated per stock
+2025-09-19 20:56:12,000 - portfolio_simulation - INFO - Month 10 completed in 1.97s: Return 33.48%, Capital ₹1,057,507.55
+2025-09-19 20:56:12,000 - portfolio_simulation - INFO - Processing month 11/12: 2024-11-01 to 2024-11-30
+2025-09-19 20:56:12,005 - portfolio_simulation - INFO - Selected stocks for month 11: ['SUNTV', 'DLF', 'LTIM', 'INDGN', 'VGUARD', 'TIINDIA', 'CMSINFO', 'ASTRAMICRO', 'MASTEK', 'ENTERO', 'NHPC', 'AKUMS', 'ASTRAL', 'PERSISTENT', 'PFC', 'IONEXCHANG', 'AZAD', 'VENUSPIPES', 'DOMS', 'TEJASNET']
+2025-09-19 20:56:15,885 - portfolio_simulation - INFO - Month 11: 20 valid stocks, 0 failed stocks
+2025-09-19 20:56:15,886 - portfolio_simulation - INFO - Month 11: ₹52,875.38 allocated per stock
+2025-09-19 20:56:15,888 - portfolio_simulation - INFO - Month 11 completed in 3.89s: Return 2.86%, Capital ₹1,087,718.06
+2025-09-19 20:56:15,888 - portfolio_simulation - INFO - Processing month 12/12: 2024-12-01 to 2024-12-31
+2025-09-19 20:56:15,893 - portfolio_simulation - INFO - Selected stocks for month 12: ['TEXRAIL', 'JPPOWER', 'SUPRAJIT', 'TATAPOWER', 'ACUTAAS', 'BSOFT', 'INTELLECT', 'APOLLOTYRE', 'JSFB', 'SOBHA', 'RATEGAIN', 'TBOTEK', 'NYKAA', 'SUNDRMFAST', 'TATAELXSI', 'RESPONIND', 'SHILPAMED', 'EMBDL', 'SUNTECK', 'SWIGGY']
+2025-09-19 20:56:19,970 - portfolio_simulation - INFO - Month 12: 20 valid stocks, 0 failed stocks
+2025-09-19 20:56:19,971 - portfolio_simulation - INFO - Month 12: ₹54,385.90 allocated per stock
+2025-09-19 20:56:19,973 - portfolio_simulation - INFO - Month 12 completed in 4.09s: Return 2.34%, Capital ₹1,113,130.63
+2025-09-19 20:56:19,973 - portfolio_simulation - INFO - Simulation completed in 44.74s: Total return 11.31%, 226 trades executed
+2025-09-19 20:56:19,974 - portfolio_simulation - INFO - Simulation 2 completed successfully in 44.75s (Total return: 11.31%)
+2025-09-19 20:56:19,987 - portfolio_simulation - INFO - Starting simulation 3/10
+2025-09-19 20:56:19,987 - portfolio_simulation - INFO - Starting portfolio simulation: 2024-01-01 to 2024-12-31, 20 stocks, ₹1,000,000 capital
+2025-09-19 20:56:19,988 - portfolio_simulation - INFO - Generated 12 monthly periods for simulation
+2025-09-19 20:56:19,988 - portfolio_simulation - INFO - Processing month 1/12: 2024-01-01 to 2024-01-31
+2025-09-19 20:56:19,994 - portfolio_simulation - INFO - Selected stocks for month 1: ['ABFRL', 'NIACL', 'TATACOMM', 'SBICARD', 'ISGEC', 'LICHSGFIN', 'ASIANPAINT', 'ICIL', 'YATHARTH', 'HINDCOPPER', 'AGI', 'CANBK', 'BLUEJET', 'WEBELSOLAR', 'REDTAPE', 'VESUVIUS', 'BALRAMCHIN', 'ZENTEC', 'ROUTE', 'DEEPAKFERT']
+2025-09-19 20:56:24,034 - portfolio_simulation - INFO - Month 1: 20 valid stocks, 0 failed stocks
+2025-09-19 20:56:24,034 - portfolio_simulation - INFO - Month 1: ₹50,000.00 allocated per stock
+2025-09-19 20:56:24,035 - portfolio_simulation - INFO - Month 1 completed in 4.05s: Return -2.13%, Capital ₹978,664.39
+2025-09-19 20:56:24,036 - portfolio_simulation - INFO - Processing month 2/12: 2024-02-01 to 2024-02-29
+2025-09-19 20:56:24,039 - portfolio_simulation - INFO - Selected stocks for month 2: ['DBL', 'KPIL', 'COALINDIA', 'AVANTIFEED', 'SUMICHEM', 'VOLTAMP', 'OFSS', 'NEOGEN', 'GHCL', 'BLS', 'RALLIS', 'JAICORPLTD', 'STYLAMIND', 'HERITGFOOD', 'GRINFRA', 'DYNAMATECH', 'GMMPFAUDLR', 'NMDC', 'CROMPTON', 'SHYAMMETL']
+2025-09-19 20:56:27,714 - portfolio_simulation - INFO - Month 2: 20 valid stocks, 0 failed stocks
+2025-09-19 20:56:27,715 - portfolio_simulation - INFO - Month 2: ₹48,933.22 allocated per stock
+2025-09-19 20:56:27,717 - portfolio_simulation - INFO - Month 2 completed in 3.68s: Return 1.89%, Capital ₹997,115.33
+2025-09-19 20:56:27,717 - portfolio_simulation - INFO - Processing month 3/12: 2024-03-01 to 2024-03-31
+2025-09-19 20:56:27,722 - portfolio_simulation - INFO - Selected stocks for month 3: ['SCI', 'EIEL', 'TARIL', 'JKCEMENT', 'PRICOLLTD', 'RAYMOND', 'SURYAROSNI', 'ROUTE', 'IGL', 'CANFINHOME', 'WABAG', 'ELGIEQUIP', 'JISLJALEQS', 'DBL', 'NOCIL', 'MSTCLTD', 'NCC', 'RATEGAIN', 'INFIBEAM', 'AARTIPHARM']
+2025-09-19 20:56:28,092 - portfolio_simulation - WARNING - Error fetching EIEL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:56:28,281 - portfolio_simulation - WARNING - Error fetching TARIL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:56:31,044 - portfolio_simulation - INFO - Month 3: 18 valid stocks, 2 failed stocks
+2025-09-19 20:56:31,044 - portfolio_simulation - INFO - Month 3: ₹55,395.30 allocated per stock
+2025-09-19 20:56:31,046 - portfolio_simulation - INFO - Month 3 completed in 3.33s: Return 7.16%, Capital ₹1,068,490.11
+2025-09-19 20:56:31,046 - portfolio_simulation - INFO - Processing month 4/12: 2024-04-01 to 2024-04-30
+2025-09-19 20:56:31,054 - portfolio_simulation - INFO - Selected stocks for month 4: ['WELSPUNLIV', 'ASTRAMICRO', 'BALAMINES', 'GILLETTE', 'PETRONET', 'NAM-INDIA', 'INOXINDIA', 'JSWSTEEL', 'VEDL', 'MASTEK', 'NFL', 'DCMSHRIRAM', 'CYIENT', 'KOTAKBANK', 'GMRAIRPORT', 'INDIACEM', 'FCL', 'NEOGEN', 'SWSOLAR', 'AIIL']
+2025-09-19 20:56:34,557 - portfolio_simulation - INFO - Month 4: 20 valid stocks, 0 failed stocks
+2025-09-19 20:56:34,557 - portfolio_simulation - INFO - Month 4: ₹53,424.51 allocated per stock
+2025-09-19 20:56:34,559 - portfolio_simulation - INFO - Month 4 completed in 3.51s: Return -6.56%, Capital ₹998,384.85
+2025-09-19 20:56:34,559 - portfolio_simulation - INFO - Processing month 5/12: 2024-05-01 to 2024-05-31
+2025-09-19 20:56:34,566 - portfolio_simulation - INFO - Selected stocks for month 5: ['RELIANCE', 'INDHOTEL', 'CANFINHOME', 'GSFC', 'GODFRYPHLP', 'INDIAGLYCO', 'TORNTPOWER', 'UTIAMC', 'TATAPOWER', 'ORISSAMINE', 'EPL', 'KARURVYSYA', 'MAHABANK', 'ISGEC', 'KIRLOSENG', 'KIRLOSBROS', 'VIPIND', 'SUPRIYA', 'MAZDOCK', 'PHOENIXLTD']
+2025-09-19 20:56:38,211 - portfolio_simulation - INFO - Month 5: 20 valid stocks, 0 failed stocks
+2025-09-19 20:56:38,211 - portfolio_simulation - INFO - Month 5: ₹49,919.24 allocated per stock
+2025-09-19 20:56:38,213 - portfolio_simulation - INFO - Month 5 completed in 3.65s: Return 2.41%, Capital ₹1,022,480.11
+2025-09-19 20:56:38,214 - portfolio_simulation - INFO - Processing month 6/12: 2024-06-01 to 2024-06-30
+2025-09-19 20:56:38,221 - portfolio_simulation - INFO - Selected stocks for month 6: ['CEIGALL', 'KEC', 'POWERGRID', 'PTCIL', 'PATANJALI', 'NUVOCO', 'VOLTAMP', 'HINDALCO', 'SKFINDIA', 'MANYAVAR', 'EDELWEISS', 'SOBHA', 'PARADEEP', 'SAREGAMA', 'UNIONBANK', 'SCHNEIDER', 'JUSTDIAL', 'SUBROS', 'BAJAJ-AUTO', 'JISLJALEQS']
+2025-09-19 20:56:38,416 - portfolio_simulation - WARNING - Error fetching CEIGALL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:56:41,556 - portfolio_simulation - INFO - Month 6: 19 valid stocks, 1 failed stocks
+2025-09-19 20:56:41,556 - portfolio_simulation - INFO - Month 6: ₹53,814.74 allocated per stock
+2025-09-19 20:56:41,558 - portfolio_simulation - INFO - Month 6 completed in 3.34s: Return -5.28%, Capital ₹968,477.94
+2025-09-19 20:56:41,558 - portfolio_simulation - INFO - Processing month 7/12: 2024-07-01 to 2024-07-31
+2025-09-19 20:56:41,565 - portfolio_simulation - INFO - Selected stocks for month 7: ['ASTRAL', 'KARURVYSYA', 'GODREJAGRO', 'GESHIP', 'TATACONSUM', 'RAYMONDLSL', 'SWANCORP', 'JISLJALEQS', 'TVSSCS', 'DCAL', 'BAYERCROP', 'BIRLACORPN', 'GRSE', 'NAZARA', 'MARICO', 'BHARATFORG', 'IFCI', 'HSCL', 'ORCHPHARMA', 'MAXHEALTH']
+2025-09-19 20:56:42,843 - portfolio_simulation - WARNING - Error fetching RAYMONDLSL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:56:45,305 - portfolio_simulation - INFO - Month 7: 19 valid stocks, 1 failed stocks
+2025-09-19 20:56:45,305 - portfolio_simulation - INFO - Month 7: ₹50,972.52 allocated per stock
+2025-09-19 20:56:45,307 - portfolio_simulation - INFO - Month 7 completed in 3.75s: Return -6.81%, Capital ₹902,508.56
+2025-09-19 20:56:45,307 - portfolio_simulation - INFO - Processing month 8/12: 2024-08-01 to 2024-08-31
+2025-09-19 20:56:45,312 - portfolio_simulation - INFO - Selected stocks for month 8: ['AIIL', 'PATANJALI', 'TEXRAIL', 'STAR', 'HAPPSTMNDS', 'GMDCLTD', 'INFIBEAM', 'RBA', 'TTML', 'SWANCORP', 'COROMANDEL', 'ADVENZYMES', 'MAPMYINDIA', 'ABREL', 'DELHIVERY', 'EUREKAFORB', 'KIRLOSENG', 'JKIL', 'AHLUCONT', 'GATEWAY']
+2025-09-19 20:56:48,177 - portfolio_simulation - WARNING - Error fetching EUREKAFORB: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:56:49,010 - portfolio_simulation - INFO - Month 8: 19 valid stocks, 1 failed stocks
+2025-09-19 20:56:49,010 - portfolio_simulation - INFO - Month 8: ₹47,500.45 allocated per stock
+2025-09-19 20:56:49,012 - portfolio_simulation - INFO - Month 8 completed in 3.71s: Return -2.36%, Capital ₹881,248.40
+2025-09-19 20:56:49,012 - portfolio_simulation - INFO - Processing month 9/12: 2024-09-01 to 2024-09-30
+2025-09-19 20:56:49,016 - portfolio_simulation - INFO - Selected stocks for month 9: ['IDBI', 'GULFOILLUB', 'SPARC', 'IKS', 'ROSSARI', 'TORNTPOWER', 'MPHASIS', 'SRF', 'BAJAJHLDNG', 'IIFL', 'SEQUENT', 'FDC', 'HEROMOTOCO', 'PATELENG', 'PARAS', 'PRINCEPIPE', 'KPRMILL', 'RAIN', 'RELINFRA', 'ADVENZYMES']
+2025-09-19 20:56:49,864 - portfolio_simulation - WARNING - Error fetching IKS: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:56:51,623 - portfolio_simulation - WARNING - Error fetching PARAS: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 20:56:52,584 - portfolio_simulation - INFO - Month 9: 18 valid stocks, 2 failed stocks
+2025-09-19 20:56:52,584 - portfolio_simulation - INFO - Month 9: ₹48,958.24 allocated per stock
+2025-09-19 20:56:52,586 - portfolio_simulation - INFO - Month 9 completed in 3.57s: Return -4.50%, Capital ₹841,550.76
+2025-09-19 20:56:52,586 - portfolio_simulation - INFO - Processing month 10/12: 2024-10-01 to 2024-10-31
+2025-09-19 20:56:52,590 - portfolio_simulation - INFO - Selected stocks for month 10: ['COFORGE', 'ACE', 'SPARC', 'FLUOROCHEM', 'KIRLPNU', 'HAPPSTMNDS', 'EPL', 'MINDACORP', 'IRCTC', 'TIPSMUSIC', 'OBEROIRLTY', 'PNGJL', 'ACC', 'RECLTD', 'RTNINDIA', 'TEXRAIL', 'NMDC', 'AUBANK', 'ICICIPRULI', 'GUJGASLTD']
+2025-09-19 20:56:53,931 - portfolio_simulation - INFO - Month 10: 20 valid stocks, 0 failed stocks
+2025-09-19 20:56:53,932 - portfolio_simulation - INFO - Month 10: ₹42,077.54 allocated per stock
+2025-09-19 20:56:53,933 - portfolio_simulation - INFO - Month 10 completed in 1.35s: Return 4.15%, Capital ₹876,450.85
+2025-09-19 20:56:53,934 - portfolio_simulation - INFO - Processing month 11/12: 2024-11-01 to 2024-11-30
+2025-09-19 20:56:53,937 - portfolio_simulation - INFO - Selected stocks for month 11: ['JUSTDIAL', 'RATEGAIN', 'ASIANPAINT', 'THOMASCOOK', 'DYNAMATECH', 'PATANJALI', 'HEROMOTOCO', 'DATAPATTNS', 'ALOKINDS', 'CSBBANK', 'ACC', 'CERA', 'ASTRAL', 'GLAND', 'EUREKAFORB', 'GANECOS', 'AIAENG', 'MRF', 'TATACONSUM', 'AVANTIFEED']
+2025-09-19 21:00:29,940 - portfolio_simulation - INFO - Loading stock list from: ind_niftytotalmarket_list.csv
+2025-09-19 21:00:29,948 - portfolio_simulation - INFO - Successfully loaded 752 stocks from CSV file
+2025-09-19 21:00:29,954 - portfolio_simulation - INFO - Starting batch of 10 simulations from 2024-01-01 to 2024-12-31
+2025-09-19 21:00:29,955 - portfolio_simulation - INFO - Starting simulation 1/10
+2025-09-19 21:00:29,955 - portfolio_simulation - INFO - Starting portfolio simulation: 2024-01-01 to 2024-12-31, 20 stocks, ₹1,000,000 capital
+2025-09-19 21:00:29,956 - portfolio_simulation - INFO - Generated 12 monthly periods for simulation
+2025-09-19 21:00:29,956 - portfolio_simulation - INFO - Processing month 1/12: 2024-01-01 to 2024-01-31
+2025-09-19 21:00:29,970 - portfolio_simulation - INFO - Selected stocks for month 1: ['ISGEC', 'SUNDARMFIN', 'ORCHPHARMA', 'CAMS', 'BLUEDART', 'TIMETECHNO', 'PHOENIXLTD', 'BANDHANBNK', 'FDC', 'ICICIBANK', 'RADICO', 'ABFRL', 'GMDCLTD', 'SYRMA', 'BOROLTD', 'HEG', 'ANANTRAJ', 'LINDEINDIA', 'INDIAGLYCO', 'VMM']
+2025-09-19 21:00:33,513 - portfolio_simulation - WARNING - Error fetching VMM: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:00:33,513 - portfolio_simulation - INFO - Month 1: 19 valid stocks, 1 failed stocks
+2025-09-19 21:00:33,513 - portfolio_simulation - INFO - Month 1: ₹52,631.58 allocated per stock
+2025-09-19 21:00:33,516 - portfolio_simulation - INFO - Month 1 completed in 3.56s: Return -0.81%, Capital ₹991,898.50
+2025-09-19 21:00:33,516 - portfolio_simulation - INFO - Processing month 2/12: 2024-02-01 to 2024-02-29
+2025-09-19 21:00:33,521 - portfolio_simulation - INFO - Selected stocks for month 2: ['SAPPHIRE', 'REDTAPE', 'ELECON', 'NYKAA', 'EIEL', 'TCS', 'ABCAPITAL', 'MRPL', 'COLPAL', 'JBMA', 'BLUEJET', 'NAZARA', 'KAYNES', 'SAMMAANCAP', 'HBLENGINE', 'BANKBARODA', 'SOLARINDS', 'KIRLOSBROS', 'LLOYDSENGG', 'CMSINFO']
+2025-09-19 21:00:34,355 - portfolio_simulation - WARNING - Error fetching EIEL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:00:37,151 - portfolio_simulation - INFO - Month 2: 19 valid stocks, 1 failed stocks
+2025-09-19 21:00:37,151 - portfolio_simulation - INFO - Month 2: ₹52,205.18 allocated per stock
+2025-09-19 21:00:37,153 - portfolio_simulation - INFO - Month 2 completed in 3.64s: Return -1.12%, Capital ₹980,759.16
+2025-09-19 21:00:37,154 - portfolio_simulation - INFO - Processing month 3/12: 2024-03-01 to 2024-03-31
+2025-09-19 21:00:37,160 - portfolio_simulation - INFO - Selected stocks for month 3: ['TIMKEN', 'AUROPHARMA', 'ARVIND', 'ARVINDFASN', 'ALIVUS', 'JINDALSTEL', 'PNBHOUSING', 'SANOFICONR', 'CUMMINSIND', 'GRWRHITECH', 'SWIGGY', 'YATHARTH', 'INDIACEM', 'AVANTIFEED', 'DCBBANK', 'BBTC', 'BAJAJHIND', 'ANANDRATHI', 'MAXHEALTH', 'SYMPHONY']
+2025-09-19 21:00:38,905 - portfolio_simulation - WARNING - Error fetching SANOFICONR: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:00:39,647 - portfolio_simulation - WARNING - Error fetching SWIGGY: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:00:41,030 - portfolio_simulation - INFO - Month 3: 18 valid stocks, 2 failed stocks
+2025-09-19 21:00:41,030 - portfolio_simulation - INFO - Month 3: ₹54,486.62 allocated per stock
+2025-09-19 21:00:41,033 - portfolio_simulation - INFO - Month 3 completed in 3.88s: Return 4.17%, Capital ₹1,021,680.59
+2025-09-19 21:00:41,033 - portfolio_simulation - INFO - Processing month 4/12: 2024-04-01 to 2024-04-30
+2025-09-19 21:00:41,038 - portfolio_simulation - INFO - Selected stocks for month 4: ['AARTIIND', 'HEMIPROP', 'LICHSGFIN', 'JCHAC', 'RBA', 'GULFOILLUB', 'HAVELLS', 'BECTORFOOD', 'SAMHI', 'APARINDS', 'NETWEB', 'RENUKA', 'VMART', 'KALYANKJIL', 'BANKINDIA', 'MAXESTATES', 'BBTC', 'BAJAJHLDNG', 'ABBOTINDIA', 'MASTEK']
+2025-09-19 21:00:44,819 - portfolio_simulation - INFO - Month 4: 20 valid stocks, 0 failed stocks
+2025-09-19 21:00:44,819 - portfolio_simulation - INFO - Month 4: ₹51,084.03 allocated per stock
+2025-09-19 21:00:44,822 - portfolio_simulation - INFO - Month 4 completed in 3.79s: Return -3.91%, Capital ₹981,770.71
+2025-09-19 21:00:44,822 - portfolio_simulation - INFO - Processing month 5/12: 2024-05-01 to 2024-05-31
+2025-09-19 21:00:44,827 - portfolio_simulation - INFO - Selected stocks for month 5: ['MARKSANS', 'JKPAPER', 'ABREL', 'BEML', 'SUBROS', 'UNOMINDA', 'CRISIL', 'ASTRAZEN', 'TARC', 'SHAKTIPUMP', 'ABDL', 'JINDALSAW', 'ABFRL', 'BRITANNIA', 'GODREJCP', 'TATACHEM', 'TIPSMUSIC', 'AETHER', 'UJJIVANSFB', 'WELSPUNLIV']
+2025-09-19 21:00:47,013 - portfolio_simulation - WARNING - Error fetching ABDL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:00:48,864 - portfolio_simulation - INFO - Month 5: 19 valid stocks, 1 failed stocks
+2025-09-19 21:00:48,864 - portfolio_simulation - INFO - Month 5: ₹51,672.14 allocated per stock
+2025-09-19 21:00:48,866 - portfolio_simulation - INFO - Month 5 completed in 4.04s: Return -2.02%, Capital ₹961,892.89
+2025-09-19 21:00:48,866 - portfolio_simulation - INFO - Processing month 6/12: 2024-06-01 to 2024-06-30
+2025-09-19 21:00:48,872 - portfolio_simulation - INFO - Selected stocks for month 6: ['GLAXO', 'FACT', 'DCBBANK', 'RVNL', 'LINDEINDIA', 'MFSL', 'POLYMED', 'IRB', 'FCL', 'SKIPPER', 'TATAINVEST', 'BHEL', 'AURIONPRO', 'ALOKINDS', 'RELIGARE', 'CAPLIPOINT', 'NTPC', 'AVALON', 'BOSCHLTD', 'SOLARINDS']
+2025-09-19 21:00:52,549 - portfolio_simulation - INFO - Month 6: 20 valid stocks, 0 failed stocks
+2025-09-19 21:00:52,550 - portfolio_simulation - INFO - Month 6: ₹48,094.64 allocated per stock
+2025-09-19 21:00:52,553 - portfolio_simulation - INFO - Month 6 completed in 3.69s: Return -2.13%, Capital ₹941,361.95
+2025-09-19 21:00:52,553 - portfolio_simulation - INFO - Processing month 7/12: 2024-07-01 to 2024-07-31
+2025-09-19 21:00:52,558 - portfolio_simulation - INFO - Selected stocks for month 7: ['HINDALCO', 'LT', 'SKIPPER', 'NBCC', 'IIFL', 'BEPL', 'GOPAL', 'TIPSMUSIC', 'M&MFIN', 'HBLENGINE', 'SAMMAANCAP', 'HINDPETRO', 'COROMANDEL', 'LUXIND', 'PATELENG', 'GAEL', 'TECHNOE', 'STARCEMENT', 'STLNETWORK', 'NESTLEIND']
+2025-09-19 21:00:55,984 - portfolio_simulation - WARNING - Error fetching TECHNOE: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:00:56,456 - portfolio_simulation - WARNING - Error fetching STLNETWORK: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:00:56,659 - portfolio_simulation - INFO - Month 7: 18 valid stocks, 2 failed stocks
+2025-09-19 21:00:56,660 - portfolio_simulation - INFO - Month 7: ₹52,297.89 allocated per stock
+2025-09-19 21:00:56,662 - portfolio_simulation - INFO - Month 7 completed in 4.11s: Return -7.69%, Capital ₹868,985.99
+2025-09-19 21:00:56,662 - portfolio_simulation - INFO - Processing month 8/12: 2024-08-01 to 2024-08-31
+2025-09-19 21:00:56,667 - portfolio_simulation - INFO - Selected stocks for month 8: ['JIOFIN', 'JSWSTEEL', 'BHARTIARTL', 'BHARTIHEXA', 'MARICO', 'CCL', 'ADANIPOWER', 'AWFIS', 'GICRE', 'CAMS', 'PETRONET', 'ZENTEC', 'JINDALSTEL', 'SHAKTIPUMP', 'IONEXCHANG', 'SKIPPER', 'IEX', 'WESTLIFE', 'ATUL', 'SAMHI']
+2025-09-19 21:01:00,604 - portfolio_simulation - INFO - Month 8: 20 valid stocks, 0 failed stocks
+2025-09-19 21:01:00,604 - portfolio_simulation - INFO - Month 8: ₹43,449.30 allocated per stock
+2025-09-19 21:01:00,608 - portfolio_simulation - INFO - Month 8 completed in 3.95s: Return -1.97%, Capital ₹851,878.83
+2025-09-19 21:01:00,608 - portfolio_simulation - INFO - Processing month 9/12: 2024-09-01 to 2024-09-30
+2025-09-19 21:01:00,614 - portfolio_simulation - INFO - Selected stocks for month 9: ['INOXWIND', 'KAJARIACER', 'EPIGRAL', 'CGCL', 'POLYPLEX', 'BERGEPAINT', 'VIJAYA', 'ANANDRATHI', 'CANBK', 'TEGA', 'PIIND', 'ASTERDM', 'UTIAMC', 'SUNDARMFIN', 'JINDALSAW', 'ANGELONE', 'CHENNPETRO', '3MINDIA', 'ICIL', 'MMTC']
+2025-09-19 21:01:04,769 - portfolio_simulation - INFO - Month 9: 20 valid stocks, 0 failed stocks
+2025-09-19 21:01:04,770 - portfolio_simulation - INFO - Month 9: ₹42,593.94 allocated per stock
+2025-09-19 21:01:04,772 - portfolio_simulation - INFO - Month 9 completed in 4.16s: Return -1.64%, Capital ₹837,890.35
+2025-09-19 21:01:04,773 - portfolio_simulation - INFO - Processing month 10/12: 2024-10-01 to 2024-10-31
+2025-09-19 21:01:04,779 - portfolio_simulation - INFO - Selected stocks for month 10: ['AARTIIND', 'ALOKINDS', 'GODREJPROP', 'BEPL', 'BOROLTD', 'DELHIVERY', 'RAJESHEXPO', 'LLOYDSME', 'PATANJALI', 'ASTRAMICRO', 'BIOCON', 'CARTRADE', 'APTUS', 'BLS', 'BANSALWIRE', 'APOLLOHOSP', 'ENGINERSIN', 'ADVENZYMES', 'PATELENG', 'POLYPLEX']
+2025-09-19 21:01:06,981 - portfolio_simulation - INFO - Month 10: 20 valid stocks, 0 failed stocks
+2025-09-19 21:01:06,981 - portfolio_simulation - INFO - Month 10: ₹41,894.52 allocated per stock
+2025-09-19 21:01:06,982 - portfolio_simulation - INFO - Month 10 completed in 2.21s: Return 7.96%, Capital ₹904,591.25
+2025-09-19 21:01:06,982 - portfolio_simulation - INFO - Processing month 11/12: 2024-11-01 to 2024-11-30
+2025-09-19 21:01:06,985 - portfolio_simulation - INFO - Selected stocks for month 11: ['PGEL', 'NATCOPHARM', 'TRIVENI', 'ROSSARI', 'BSOFT', 'GRAVITA', 'APLAPOLLO', 'TITAN', 'IXIGO', 'SCI', 'ABBOTINDIA', 'UPL', 'VOLTAMP', 'ADANIENT', 'AWFIS', 'NEULANDLAB', 'EQUITASBNK', 'BERGEPAINT', 'COFORGE', 'BLS']
+2025-09-19 21:01:11,386 - portfolio_simulation - INFO - Month 11: 20 valid stocks, 0 failed stocks
+2025-09-19 21:01:11,386 - portfolio_simulation - INFO - Month 11: ₹45,229.56 allocated per stock
+2025-09-19 21:01:11,389 - portfolio_simulation - INFO - Month 11 completed in 4.41s: Return 2.63%, Capital ₹928,377.67
+2025-09-19 21:01:11,389 - portfolio_simulation - INFO - Processing month 12/12: 2024-12-01 to 2024-12-31
+2025-09-19 21:01:11,394 - portfolio_simulation - INFO - Selected stocks for month 12: ['TIPSMUSIC', 'CHEMPLASTS', 'JWL', 'INDHOTEL', 'TORNTPHARM', 'JUBLFOOD', 'DODLA', 'NUVOCO', 'BERGEPAINT', 'BSE', 'ESCORTS', 'APLAPOLLO', 'MARKSANS', 'AARTIDRUGS', 'NFL', 'AUBANK', 'NATCOPHARM', 'INDUSTOWER', 'ASTRAMICRO', 'CIPLA']
+2025-09-19 21:01:15,646 - portfolio_simulation - INFO - Month 12: 20 valid stocks, 0 failed stocks
+2025-09-19 21:01:15,646 - portfolio_simulation - INFO - Month 12: ₹46,418.88 allocated per stock
+2025-09-19 21:01:15,648 - portfolio_simulation - INFO - Month 12 completed in 4.26s: Return 2.21%, Capital ₹948,908.35
+2025-09-19 21:01:15,649 - portfolio_simulation - INFO - Simulation completed in 45.69s: Total return -5.11%, 233 trades executed
+2025-09-19 21:01:15,649 - portfolio_simulation - INFO - Simulation 1 completed successfully in 45.69s (Total return: -5.11%)
+2025-09-19 21:01:15,662 - portfolio_simulation - INFO - Starting simulation 2/10
+2025-09-19 21:01:15,663 - portfolio_simulation - INFO - Starting portfolio simulation: 2024-01-01 to 2024-12-31, 20 stocks, ₹1,000,000 capital
+2025-09-19 21:01:15,663 - portfolio_simulation - INFO - Generated 12 monthly periods for simulation
+2025-09-19 21:01:15,664 - portfolio_simulation - INFO - Processing month 1/12: 2024-01-01 to 2024-01-31
+2025-09-19 21:01:15,671 - portfolio_simulation - INFO - Selected stocks for month 1: ['POLYCAB', 'IOB', 'HINDUNILVR', 'FINCABLES', 'SAPPHIRE', 'GLENMARK', 'MCX', 'MAXESTATES', 'BOMDYEING', 'CHOICEIN', 'TDPOWERSYS', 'BSE', 'KOTAKBANK', 'WESTLIFE', 'PRSMJOHNSN', 'MARKSANS', 'SHYAMMETL', 'BORORENEW', 'SIGNATURE', 'SUPRAJIT']
+2025-09-19 21:01:19,634 - portfolio_simulation - INFO - Month 1: 20 valid stocks, 0 failed stocks
+2025-09-19 21:01:19,634 - portfolio_simulation - INFO - Month 1: ₹50,000.00 allocated per stock
+2025-09-19 21:01:19,638 - portfolio_simulation - INFO - Month 1 completed in 3.97s: Return -2.82%, Capital ₹971,837.23
+2025-09-19 21:01:19,638 - portfolio_simulation - INFO - Processing month 2/12: 2024-02-01 to 2024-02-29
+2025-09-19 21:01:19,644 - portfolio_simulation - INFO - Selected stocks for month 2: ['HINDPETRO', 'INDUSTOWER', 'PIDILITIND', 'DATAPATTNS', 'TRANSRAILL', 'CONCOR', 'RELIANCE', 'NUVAMA', 'INDHOTEL', 'SUPREMEIND', 'SAILIFE', 'SHREECEM', 'UPL', 'CHOICEIN', 'CHOLAFIN', 'EIDPARRY', 'ZEEL', 'PTC', 'ZENSARTECH', 'BAJAJFINSV']
+2025-09-19 21:01:20,680 - portfolio_simulation - WARNING - Error fetching TRANSRAILL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:01:21,747 - portfolio_simulation - WARNING - Error fetching SAILIFE: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:01:24,071 - portfolio_simulation - INFO - Month 2: 18 valid stocks, 2 failed stocks
+2025-09-19 21:01:24,071 - portfolio_simulation - INFO - Month 2: ₹53,990.96 allocated per stock
+2025-09-19 21:01:24,074 - portfolio_simulation - INFO - Month 2 completed in 4.44s: Return 5.30%, Capital ₹1,023,332.90
+2025-09-19 21:01:24,074 - portfolio_simulation - INFO - Processing month 3/12: 2024-03-01 to 2024-03-31
+2025-09-19 21:01:24,079 - portfolio_simulation - INFO - Selected stocks for month 3: ['SCHAEFFLER', 'EIEL', 'ANGELONE', 'SANSERA', 'OFSS', 'TIMKEN', 'JSL', 'IGL', 'DATAPATTNS', 'KIRLPNU', 'APLLTD', 'CASTROLIND', 'JSWENERGY', 'DELHIVERY', 'MAZDOCK', 'BORORENEW', 'KNRCON', 'TCS', 'IGIL', 'RAMCOCEM']
+2025-09-19 21:01:24,323 - portfolio_simulation - WARNING - Error fetching EIEL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:01:27,242 - portfolio_simulation - WARNING - Error fetching IGIL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:01:27,467 - portfolio_simulation - INFO - Month 3: 18 valid stocks, 2 failed stocks
+2025-09-19 21:01:27,467 - portfolio_simulation - INFO - Month 3: ₹56,851.83 allocated per stock
+2025-09-19 21:01:27,469 - portfolio_simulation - INFO - Month 3 completed in 3.39s: Return 2.19%, Capital ₹1,045,724.17
+2025-09-19 21:01:27,469 - portfolio_simulation - INFO - Processing month 4/12: 2024-04-01 to 2024-04-30
+2025-09-19 21:01:27,474 - portfolio_simulation - INFO - Selected stocks for month 4: ['GODREJPROP', 'ALOKINDS', 'CRAFTSMAN', 'GARFIBRES', 'DEEPAKNTR', 'JYOTHYLAB', 'PRESTIGE', 'FIEMIND', 'APOLLOHOSP', 'VENTIVE', 'SHRIPISTON', 'LTFOODS', 'MCX', 'EPL', 'BANCOINDIA', 'NLCINDIA', 'CERA', 'IREDA', 'MIDHANI', 'CIPLA']
+2025-09-19 21:01:29,531 - portfolio_simulation - WARNING - Error fetching VENTIVE: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:01:31,733 - portfolio_simulation - INFO - Month 4: 19 valid stocks, 1 failed stocks
+2025-09-19 21:01:31,733 - portfolio_simulation - INFO - Month 4: ₹55,038.11 allocated per stock
+2025-09-19 21:01:31,735 - portfolio_simulation - INFO - Month 4 completed in 4.27s: Return -4.27%, Capital ₹1,001,060.21
+2025-09-19 21:01:31,735 - portfolio_simulation - INFO - Processing month 5/12: 2024-05-01 to 2024-05-31
+2025-09-19 21:01:31,738 - portfolio_simulation - INFO - Selected stocks for month 5: ['SCHNEIDER', 'TORNTPHARM', 'AVL', 'GVT&D', 'AURIONPRO', 'INDIANB', 'MUTHOOTFIN', 'HONASA', 'POLYMED', 'RTNPOWER', 'LICI', 'MAZDOCK', 'AADHARHFC', 'GODFRYPHLP', 'ARVIND', 'FIEMIND', 'PRAJIND', 'SUNDRMFAST', 'ACUTAAS', 'KPIL']
+2025-09-19 21:01:32,398 - portfolio_simulation - WARNING - Error fetching AVL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:01:32,564 - portfolio_simulation - WARNING - Error fetching GVT&D: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:01:35,223 - portfolio_simulation - INFO - Month 5: 18 valid stocks, 2 failed stocks
+2025-09-19 21:01:35,223 - portfolio_simulation - INFO - Month 5: ₹55,614.46 allocated per stock
+2025-09-19 21:01:35,226 - portfolio_simulation - INFO - Month 5 completed in 3.49s: Return -2.59%, Capital ₹975,149.96
+2025-09-19 21:01:35,226 - portfolio_simulation - INFO - Processing month 6/12: 2024-06-01 to 2024-06-30
+2025-09-19 21:01:35,233 - portfolio_simulation - INFO - Selected stocks for month 6: ['RENUKA', 'IMFA', 'CHOLAHLDNG', 'GABRIEL', 'NATCOPHARM', 'SUNTECK', 'CASTROLIND', 'TARIL', 'VMART', 'INDIANB', 'ICIL', 'TATAINVEST', 'BIKAJI', 'VEDL', 'THOMASCOOK', 'CYIENTDLM', 'INDUSTOWER', 'SAREGAMA', 'KTKBANK', 'MINDACORP']
+2025-09-19 21:01:36,987 - portfolio_simulation - WARNING - Error fetching TARIL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:01:38,820 - portfolio_simulation - INFO - Month 6: 19 valid stocks, 1 failed stocks
+2025-09-19 21:01:38,820 - portfolio_simulation - INFO - Month 6: ₹51,323.68 allocated per stock
+2025-09-19 21:01:38,822 - portfolio_simulation - INFO - Month 6 completed in 3.60s: Return -9.87%, Capital ₹878,888.70
+2025-09-19 21:01:38,822 - portfolio_simulation - INFO - Processing month 7/12: 2024-07-01 to 2024-07-31
+2025-09-19 21:01:38,828 - portfolio_simulation - INFO - Selected stocks for month 7: ['THOMASCOOK', 'FLUOROCHEM', 'HBLENGINE', 'THERMAX', 'DATAPATTNS', 'PREMIERENE', 'CHENNPETRO', 'ABB', 'PNB', 'VMART', 'SCHAEFFLER', 'RELINFRA', 'GATEWAY', 'KPRMILL', 'BAJAJHFL', 'FORTIS', 'LXCHEM', 'INOXINDIA', 'RRKABEL', 'DCXINDIA']
+2025-09-19 21:01:39,947 - portfolio_simulation - WARNING - Error fetching PREMIERENE: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:01:41,786 - portfolio_simulation - WARNING - Error fetching BAJAJHFL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:01:42,787 - portfolio_simulation - INFO - Month 7: 18 valid stocks, 2 failed stocks
+2025-09-19 21:01:42,788 - portfolio_simulation - INFO - Month 7: ₹48,827.15 allocated per stock
+2025-09-19 21:01:42,790 - portfolio_simulation - INFO - Month 7 completed in 3.97s: Return -2.68%, Capital ₹855,323.06
+2025-09-19 21:01:42,790 - portfolio_simulation - INFO - Processing month 8/12: 2024-08-01 to 2024-08-31
+2025-09-19 21:01:42,795 - portfolio_simulation - INFO - Selected stocks for month 8: ['HINDALCO', 'UCOBANK', 'PCBL', 'AUROPHARMA', 'NIVABUPA', 'JKIL', 'PGEL', 'PEL', 'ADANIGREEN', 'RTNPOWER', 'CMSINFO', 'WABAG', 'JUBLFOOD', 'SUNTECK', 'BALRAMCHIN', 'VGUARD', 'AWFIS', 'VTL', 'HFCL', 'LTFOODS']
+2025-09-19 21:01:43,633 - portfolio_simulation - WARNING - Error fetching NIVABUPA: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:01:46,250 - portfolio_simulation - INFO - Month 8: 19 valid stocks, 1 failed stocks
+2025-09-19 21:01:46,250 - portfolio_simulation - INFO - Month 8: ₹45,017.00 allocated per stock
+2025-09-19 21:01:46,253 - portfolio_simulation - INFO - Month 8 completed in 3.46s: Return -5.01%, Capital ₹812,478.58
+2025-09-19 21:01:46,253 - portfolio_simulation - INFO - Processing month 9/12: 2024-09-01 to 2024-09-30
+2025-09-19 21:01:46,260 - portfolio_simulation - INFO - Selected stocks for month 9: ['VBL', 'PHOENIXLTD', 'SANOFICONR', 'NHPC', 'BHARTIARTL', 'PNB', 'SOBHA', 'NYKAA', 'BLS', 'ASTRAL', 'ACE', 'FIRSTCRY', 'TATAPOWER', 'SANSERA', 'NH', 'STLNETWORK', 'CUB', 'BOMDYEING', 'EUREKAFORB', 'UNOMINDA']
+2025-09-19 21:01:49,403 - portfolio_simulation - WARNING - Error fetching STLNETWORK: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:01:50,273 - portfolio_simulation - INFO - Month 9: 19 valid stocks, 1 failed stocks
+2025-09-19 21:01:50,273 - portfolio_simulation - INFO - Month 9: ₹42,762.03 allocated per stock
+2025-09-19 21:01:50,275 - portfolio_simulation - INFO - Month 9 completed in 4.02s: Return 11.62%, Capital ₹906,883.24
+2025-09-19 21:01:50,275 - portfolio_simulation - INFO - Processing month 10/12: 2024-10-01 to 2024-10-31
+2025-09-19 21:01:50,281 - portfolio_simulation - INFO - Selected stocks for month 10: ['SENCO', 'SPARC', 'SYRMA', 'VMM', 'NTPC', 'CYIENTDLM', 'CUB', 'INDIACEM', 'AXISBANK', 'USHAMART', 'MAPMYINDIA', 'KFINTECH', 'BORORENEW', 'ANANTRAJ', 'ALKYLAMINE', 'DELHIVERY', 'CREDITACC', 'DATAMATICS', 'BLS', 'CASTROLIND']
+2025-09-19 21:01:50,501 - portfolio_simulation - WARNING - Error fetching VMM: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:01:52,122 - portfolio_simulation - INFO - Month 10: 19 valid stocks, 1 failed stocks
+2025-09-19 21:01:52,122 - portfolio_simulation - INFO - Month 10: ₹47,730.70 allocated per stock
+2025-09-19 21:01:52,124 - portfolio_simulation - INFO - Month 10 completed in 1.85s: Return 7.48%, Capital ₹974,722.69
+2025-09-19 21:01:52,124 - portfolio_simulation - INFO - Processing month 11/12: 2024-11-01 to 2024-11-30
+2025-09-19 21:01:52,130 - portfolio_simulation - INFO - Selected stocks for month 11: ['SUDARSCHEM', 'GRASIM', 'IEX', 'ESCORTS', 'EIEL', 'INDGN', 'SANOFI', 'BAJAJHLDNG', 'IFCI', 'MASTEK', 'WONDERLA', 'DHANI', 'DIVISLAB', 'FINPIPE', 'MANINFRA', 'ABBOTINDIA', 'NCC', 'NLCINDIA', 'MAHSCOOTER', 'INTELLECT']
+2025-09-19 21:01:55,883 - portfolio_simulation - INFO - Month 11: 20 valid stocks, 0 failed stocks
+2025-09-19 21:01:55,883 - portfolio_simulation - INFO - Month 11: ₹48,736.13 allocated per stock
+2025-09-19 21:01:55,886 - portfolio_simulation - INFO - Month 11 completed in 3.76s: Return -0.27%, Capital ₹972,111.95
+2025-09-19 21:01:55,886 - portfolio_simulation - INFO - Processing month 12/12: 2024-12-01 to 2024-12-31
+2025-09-19 21:01:55,892 - portfolio_simulation - INFO - Selected stocks for month 12: ['ALOKINDS', 'TATACOMM', 'SFL', 'WIPRO', 'SUPREMEIND', 'UNIMECH', 'GRAVITA', 'EDELWEISS', 'ULTRACEMCO', 'RITES', 'TATAMOTORS', 'PGIL', 'BSOFT', 'NEWGEN', 'RELIANCE', 'ABBOTINDIA', 'TARC', 'TORNTPOWER', 'BANSALWIRE', 'WHIRLPOOL']
+2025-09-19 21:01:59,418 - portfolio_simulation - INFO - Month 12: 20 valid stocks, 0 failed stocks
+2025-09-19 21:01:59,419 - portfolio_simulation - INFO - Month 12: ₹48,605.60 allocated per stock
+2025-09-19 21:01:59,425 - portfolio_simulation - INFO - Month 12 completed in 3.54s: Return 5.75%, Capital ₹1,028,053.73
+2025-09-19 21:01:59,426 - portfolio_simulation - INFO - Simulation completed in 43.76s: Total return 2.81%, 227 trades executed
+2025-09-19 21:01:59,427 - portfolio_simulation - INFO - Simulation 2 completed successfully in 43.77s (Total return: 2.81%)
+2025-09-19 21:01:59,439 - portfolio_simulation - INFO - Starting simulation 3/10
+2025-09-19 21:01:59,439 - portfolio_simulation - INFO - Starting portfolio simulation: 2024-01-01 to 2024-12-31, 20 stocks, ₹1,000,000 capital
+2025-09-19 21:01:59,441 - portfolio_simulation - INFO - Generated 12 monthly periods for simulation
+2025-09-19 21:01:59,441 - portfolio_simulation - INFO - Processing month 1/12: 2024-01-01 to 2024-01-31
+2025-09-19 21:01:59,451 - portfolio_simulation - INFO - Selected stocks for month 1: ['KALYANKJIL', 'SBIN', 'INOXINDIA', 'TATAINVEST', 'NETWORK18', 'BORORENEW', 'ELECTCAST', 'TATACOMM', 'BLUEJET', 'NEOGEN', 'LINDEINDIA', 'JYOTICNC', 'JINDALSTEL', 'IIFLCAPS', 'IDBI', 'DOMS', 'REDTAPE', 'KPIL', 'BALKRISIND', 'RBLBANK']
+2025-09-19 21:02:02,501 - portfolio_simulation - INFO - Month 1: 20 valid stocks, 0 failed stocks
+2025-09-19 21:02:02,501 - portfolio_simulation - INFO - Month 1: ₹50,000.00 allocated per stock
+2025-09-19 21:02:02,503 - portfolio_simulation - INFO - Month 1 completed in 3.06s: Return -8.44%, Capital ₹915,571.46
+2025-09-19 21:02:02,503 - portfolio_simulation - INFO - Processing month 2/12: 2024-02-01 to 2024-02-29
+2025-09-19 21:02:02,508 - portfolio_simulation - INFO - Selected stocks for month 2: ['DCBBANK', 'PRESTIGE', 'RAMCOCEM', 'SCHAEFFLER', 'MINDACORP', 'PARKHOTELS', 'COHANCE', 'MANKIND', 'SJVN', 'SYNGENE', 'IGL', 'PERSISTENT', 'GILLETTE', 'IRB', 'ARVIND', 'JUBLINGREA', 'MAXESTATES', 'APOLLOHOSP', 'KFINTECH', 'BATAINDIA']
+2025-09-19 21:02:06,345 - portfolio_simulation - INFO - Month 2: 20 valid stocks, 0 failed stocks
+2025-09-19 21:02:06,345 - portfolio_simulation - INFO - Month 2: ₹45,778.57 allocated per stock
+2025-09-19 21:02:06,350 - portfolio_simulation - INFO - Month 2 completed in 3.85s: Return 2.50%, Capital ₹938,501.31
+2025-09-19 21:02:06,350 - portfolio_simulation - INFO - Processing month 3/12: 2024-03-01 to 2024-03-31
+2025-09-19 21:02:06,361 - portfolio_simulation - INFO - Selected stocks for month 3: ['AKZOINDIA', 'FINCABLES', 'BEL', 'GSFC', 'RAIN', 'TRITURBINE', 'OBEROIRLTY', 'ABCAPITAL', 'ICICIBANK', 'INDIAMART', 'SKIPPER', 'CARBORUNIV', 'CCL', 'WABAG', 'TATAELXSI', 'ENTERO', 'AHLUCONT', 'ADANIPOWER', 'SCHNEIDER', 'GPIL']
+2025-09-19 21:02:10,056 - portfolio_simulation - WARNING - Error fetching SCHNEIDER: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:02:10,297 - portfolio_simulation - INFO - Month 3: 19 valid stocks, 1 failed stocks
+2025-09-19 21:02:10,297 - portfolio_simulation - INFO - Month 3: ₹49,394.81 allocated per stock
+2025-09-19 21:02:10,301 - portfolio_simulation - INFO - Month 3 completed in 3.95s: Return 1.67%, Capital ₹954,178.71
+2025-09-19 21:02:10,302 - portfolio_simulation - INFO - Processing month 4/12: 2024-04-01 to 2024-04-30
+2025-09-19 21:02:10,311 - portfolio_simulation - INFO - Selected stocks for month 4: ['BALUFORGE', 'DEEPAKFERT', 'DELHIVERY', 'REDTAPE', 'TECHM', 'MPHASIS', 'HCC', 'ASIANPAINT', 'LICHSGFIN', 'BAYERCROP', 'HCLTECH', 'SBIN', 'CANBK', 'GLAND', 'SANOFICONR', '360ONE', 'MAHABANK', 'WELENT', 'ADANIPORTS', 'NTPCGREEN']
+2025-09-19 21:02:13,518 - portfolio_simulation - WARNING - Error fetching SANOFICONR: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:02:14,527 - portfolio_simulation - WARNING - Error fetching NTPCGREEN: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:02:14,528 - portfolio_simulation - INFO - Month 4: 18 valid stocks, 2 failed stocks
+2025-09-19 21:02:14,528 - portfolio_simulation - INFO - Month 4: ₹53,009.93 allocated per stock
+2025-09-19 21:02:14,532 - portfolio_simulation - INFO - Month 4 completed in 4.23s: Return -3.39%, Capital ₹921,833.90
+2025-09-19 21:02:14,532 - portfolio_simulation - INFO - Processing month 5/12: 2024-05-01 to 2024-05-31
+2025-09-19 21:02:14,545 - portfolio_simulation - INFO - Selected stocks for month 5: ['FINPIPE', 'DLF', 'SUPRAJIT', 'RTNPOWER', 'ACC', 'OFSS', 'ERIS', 'WAAREEENER', 'FSL', 'CEATLTD', 'KARURVYSYA', 'ASHOKA', 'SONATSOFTW', 'HIKAL', 'PRINCEPIPE', 'CHOLAHLDNG', 'INDGN', 'BAJAJHIND', 'IFBIND', 'CARTRADE']
+2025-09-19 21:02:15,645 - portfolio_simulation - WARNING - Error fetching WAAREEENER: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:02:18,077 - portfolio_simulation - INFO - Month 5: 19 valid stocks, 1 failed stocks
+2025-09-19 21:02:18,078 - portfolio_simulation - INFO - Month 5: ₹48,517.57 allocated per stock
+2025-09-19 21:02:18,083 - portfolio_simulation - INFO - Month 5 completed in 3.55s: Return 4.01%, Capital ₹958,794.12
+2025-09-19 21:02:18,084 - portfolio_simulation - INFO - Processing month 6/12: 2024-06-01 to 2024-06-30
+2025-09-19 21:02:18,094 - portfolio_simulation - INFO - Selected stocks for month 6: ['ACI', 'HINDALCO', 'HINDUNILVR', 'ALOKINDS', 'CARTRADE', 'IMFA', 'BAJAJHIND', 'TRIVENI', 'LINDEINDIA', 'NUVOCO', 'MTARTECH', 'TEJASNET', 'VOLTAS', 'APLAPOLLO', 'ELGIEQUIP', 'CUB', 'CARBORUNIV', 'TITAN', 'PVRINOX', 'SCI']
+2025-09-19 21:02:20,980 - portfolio_simulation - INFO - Month 6: 20 valid stocks, 0 failed stocks
+2025-09-19 21:02:20,980 - portfolio_simulation - INFO - Month 6: ₹47,939.71 allocated per stock
+2025-09-19 21:02:20,985 - portfolio_simulation - INFO - Month 6 completed in 2.90s: Return -5.79%, Capital ₹903,245.73
+2025-09-19 21:02:20,985 - portfolio_simulation - INFO - Processing month 7/12: 2024-07-01 to 2024-07-31
+2025-09-19 21:02:20,993 - portfolio_simulation - INFO - Selected stocks for month 7: ['JSFB', 'FIVESTAR', 'PRESTIGE', 'ENTERO', 'SOUTHBANK', 'AHLUCONT', 'JISLJALEQS', 'KEI', 'PCJEWELLER', 'KRBL', 'CAMS', 'EASEMYTRIP', 'HAPPSTMNDS', 'INOXGREEN', 'CGPOWER', 'FORCEMOT', 'NESTLEIND', 'SHAILY', 'HYUNDAI', 'DODLA']
+2025-09-19 21:02:23,844 - portfolio_simulation - WARNING - Error fetching HYUNDAI: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:02:24,053 - portfolio_simulation - INFO - Month 7: 19 valid stocks, 1 failed stocks
+2025-09-19 21:02:24,053 - portfolio_simulation - INFO - Month 7: ₹47,539.25 allocated per stock
+2025-09-19 21:02:24,059 - portfolio_simulation - INFO - Month 7 completed in 3.07s: Return -5.31%, Capital ₹855,284.86
+2025-09-19 21:02:24,059 - portfolio_simulation - INFO - Processing month 8/12: 2024-08-01 to 2024-08-31
+2025-09-19 21:02:24,066 - portfolio_simulation - INFO - Selected stocks for month 8: ['METROPOLIS', 'EMCURE', 'FIRSTCRY', 'SKIPPER', 'BEPL', 'REDTAPE', 'SRF', 'TITAGARH', 'PREMIERENE', 'WOCKPHARMA', 'MTARTECH', 'IOB', 'LUXIND', 'NFL', 'ALKEM', 'CDSL', 'TRENT', 'GVT&D', 'BEL', 'LT']
+2025-09-19 21:02:25,133 - portfolio_simulation - WARNING - Error fetching PREMIERENE: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:02:25,309 - portfolio_simulation - WARNING - Error fetching WOCKPHARMA: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:02:34,860 - portfolio_simulation - WARNING - Error fetching GVT&D: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:02:35,301 - portfolio_simulation - INFO - Month 8: 17 valid stocks, 3 failed stocks
+2025-09-19 21:02:35,301 - portfolio_simulation - INFO - Month 8: ₹50,310.87 allocated per stock
+2025-09-19 21:02:35,308 - portfolio_simulation - INFO - Month 8 completed in 11.25s: Return 3.72%, Capital ₹887,100.19
+2025-09-19 21:02:35,308 - portfolio_simulation - INFO - Processing month 9/12: 2024-09-01 to 2024-09-30
+2025-09-19 21:02:35,317 - portfolio_simulation - INFO - Selected stocks for month 9: ['NH', 'VARROC', 'ADVENZYMES', 'INDIGOPNTS', 'TATAELXSI', 'BANDHANBNK', 'ARVINDFASN', 'GODIGIT', 'APTUS', 'NIACL', 'COCHINSHIP', 'KIRLOSENG', 'NIVABUPA', 'SONATSOFTW', 'RRKABEL', 'PCBL', 'THOMASCOOK', 'GARFIBRES', 'STLTECH', 'LLOYDSENGG']
+2025-09-19 21:02:37,644 - portfolio_simulation - WARNING - Error fetching NIVABUPA: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:02:38,872 - portfolio_simulation - INFO - Month 9: 19 valid stocks, 1 failed stocks
+2025-09-19 21:02:38,872 - portfolio_simulation - INFO - Month 9: ₹46,689.48 allocated per stock
+2025-09-19 21:02:38,879 - portfolio_simulation - INFO - Month 9 completed in 3.57s: Return -0.97%, Capital ₹878,486.24
+2025-09-19 21:02:38,879 - portfolio_simulation - INFO - Processing month 10/12: 2024-10-01 to 2024-10-31
+2025-09-19 21:02:38,889 - portfolio_simulation - INFO - Selected stocks for month 10: ['CHALET', 'GREENPLY', 'POLYPLEX', 'GVT&D', 'FDC', 'PCBL', 'KOTAKBANK', 'ORCHPHARMA', 'SBICARD', 'HONAUT', 'HCC', 'BLACKBUCK', 'DLF', 'YESBANK', 'DEEPAKFERT', 'JSWENERGY', 'UNIONBANK', 'UNITDSPR', 'GODREJAGRO', 'TTML']
+2025-09-19 21:02:39,096 - portfolio_simulation - WARNING - Error fetching GVT&D: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:02:39,740 - portfolio_simulation - WARNING - Error fetching BLACKBUCK: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:02:39,978 - portfolio_simulation - INFO - Month 10: 18 valid stocks, 2 failed stocks
+2025-09-19 21:02:39,978 - portfolio_simulation - INFO - Month 10: ₹48,804.79 allocated per stock
+2025-09-19 21:02:39,980 - portfolio_simulation - INFO - Month 10 completed in 1.10s: Return 7.66%, Capital ₹945,800.68
+2025-09-19 21:02:39,980 - portfolio_simulation - INFO - Processing month 11/12: 2024-11-01 to 2024-11-30
+2025-09-19 21:02:39,984 - portfolio_simulation - INFO - Selected stocks for month 11: ['SULA', 'APOLLOTYRE', 'CGPOWER', 'HOMEFIRST', 'NYKAA', 'SONATSOFTW', 'ASHOKA', 'COALINDIA', 'GARFIBRES', 'GODIGIT', 'PCBL', 'ABBOTINDIA', 'SCHNEIDER', 'BOSCHLTD', 'SAPPHIRE', 'TATAMOTORS', 'ANANTRAJ', 'SPANDANA', 'SHILPAMED', 'FINPIPE']
+2025-09-19 21:02:43,293 - portfolio_simulation - INFO - Month 11: 20 valid stocks, 0 failed stocks
+2025-09-19 21:02:43,293 - portfolio_simulation - INFO - Month 11: ₹47,290.03 allocated per stock
+2025-09-19 21:02:43,299 - portfolio_simulation - INFO - Month 11 completed in 3.32s: Return 2.05%, Capital ₹965,164.80
+2025-09-19 21:02:43,300 - portfolio_simulation - INFO - Processing month 12/12: 2024-12-01 to 2024-12-31
+2025-09-19 21:02:43,310 - portfolio_simulation - INFO - Selected stocks for month 12: ['CONCOR', 'SAREGAMA', 'HAVELLS', 'IOC', 'SUNTECK', 'JKPAPER', 'SUPRIYA', 'ABBOTINDIA', 'JWL', 'LODHA', 'VOLTAMP', 'NAUKRI', 'WHIRLPOOL', 'MARUTI', 'M&M', 'SEQUENT', 'ALOKINDS', 'BORORENEW', 'LTFOODS', 'SUNDARMFIN']
+2025-09-19 21:02:48,130 - portfolio_simulation - INFO - Month 12: 20 valid stocks, 0 failed stocks
+2025-09-19 21:02:48,131 - portfolio_simulation - INFO - Month 12: ₹48,258.24 allocated per stock
+2025-09-19 21:02:48,135 - portfolio_simulation - INFO - Month 12 completed in 4.84s: Return 1.46%, Capital ₹979,262.46
+2025-09-19 21:02:48,136 - portfolio_simulation - INFO - Simulation completed in 48.70s: Total return -2.07%, 229 trades executed
+2025-09-19 21:02:48,137 - portfolio_simulation - INFO - Simulation 3 completed successfully in 48.70s (Total return: -2.07%)
+2025-09-19 21:02:48,148 - portfolio_simulation - INFO - Starting simulation 4/10
+2025-09-19 21:02:48,148 - portfolio_simulation - INFO - Starting portfolio simulation: 2024-01-01 to 2024-12-31, 20 stocks, ₹1,000,000 capital
+2025-09-19 21:02:48,149 - portfolio_simulation - INFO - Generated 12 monthly periods for simulation
+2025-09-19 21:02:48,149 - portfolio_simulation - INFO - Processing month 1/12: 2024-01-01 to 2024-01-31
+2025-09-19 21:02:48,164 - portfolio_simulation - INFO - Selected stocks for month 1: ['NEWGEN', 'SHOPERSTOP', 'BHARATFORG', 'MARKSANS', 'PPLPHARMA', 'RECLTD', 'TATASTEEL', 'VIPIND', 'AETHER', 'COCHINSHIP', 'UNIMECH', 'KARURVYSYA', 'RBLBANK', 'ICICIPRULI', 'SAFARI', 'ICICIGI', 'GRSE', 'ORCHPHARMA', 'JWL', 'HAPPSTMNDS']
+2025-09-19 21:02:48,367 - portfolio_simulation - WARNING - Error fetching NEWGEN: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:02:50,040 - portfolio_simulation - WARNING - Error fetching UNIMECH: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:02:51,742 - portfolio_simulation - INFO - Month 1: 18 valid stocks, 2 failed stocks
+2025-09-19 21:02:51,742 - portfolio_simulation - INFO - Month 1: ₹55,555.56 allocated per stock
+2025-09-19 21:02:51,746 - portfolio_simulation - INFO - Month 1 completed in 3.60s: Return 0.68%, Capital ₹1,006,780.08
+2025-09-19 21:02:51,746 - portfolio_simulation - INFO - Processing month 2/12: 2024-02-01 to 2024-02-29
+2025-09-19 21:02:51,755 - portfolio_simulation - INFO - Selected stocks for month 2: ['SHAILY', 'SWIGGY', 'LMW', 'AEGISLOG', 'NAUKRI', 'AKUMS', 'JBMA', 'GPPL', 'HDFCLIFE', 'UNITDSPR', 'RELIANCE', 'LODHA', 'APOLLOTYRE', 'MMTC', 'DODLA', 'INDIAMART', 'CANFINHOME', 'AFCONS', 'DCBBANK', 'FCL']
+2025-09-19 21:07:22,018 - portfolio_simulation - WARNING - Error fetching SWIGGY: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-09-19 21:25:58,736 - portfolio_simulation - INFO - Loading stock list from: ind_niftytotalmarket_list.csv
+2025-09-19 21:25:58,746 - portfolio_simulation - INFO - Successfully loaded 752 stocks from CSV file
+2025-09-19 21:25:58,752 - portfolio_simulation - INFO - Starting batch of 10 simulations from 2024-01-01 to 2024-12-31
+2025-09-19 21:25:58,754 - portfolio_simulation - INFO - Starting simulation 1/10
+2025-09-19 21:25:58,754 - portfolio_simulation - INFO - Starting portfolio simulation: 2024-01-01 to 2024-12-31, 5 stocks, ₹1,000,000 capital
+2025-09-19 21:25:58,755 - portfolio_simulation - INFO - Generated 12 monthly periods for simulation
+2025-09-19 21:25:58,755 - portfolio_simulation - INFO - Processing month 1/12: 2024-01-01 to 2024-01-31
+2025-09-19 21:25:58,757 - portfolio_simulation - INFO - Selected stocks for month 1: ['BANKBARODA', 'LLOYDSENT', 'M&MFIN', 'BAJAJHLDNG', 'MAHLIFE']
+2025-09-19 21:25:59,829 - portfolio_simulation - ERROR - Unexpected error fetching LLOYDSENT: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:25:59,830 - portfolio_simulation - WARNING - LLOYDSENT has no data for 2024-01-01 to 2024-01-31
+2025-09-19 21:26:00,441 - portfolio_simulation - INFO - Month 1: 4 valid stocks, 1 failed stocks
+2025-09-19 21:26:00,441 - portfolio_simulation - INFO - Month 1: ₹250,000.00 allocated per stock
+2025-09-19 21:26:00,442 - portfolio_simulation - INFO - Month 1 completed in 1.69s: Return -3.31%, Capital ₹966,887.78
+2025-09-19 21:26:00,443 - portfolio_simulation - INFO - Processing month 2/12: 2024-02-01 to 2024-02-29
+2025-09-19 21:26:00,445 - portfolio_simulation - INFO - Selected stocks for month 2: ['PRSMJOHNSN', 'JKLAKSHMI', 'BLUESTARCO', 'GMRAIRPORT', 'BSOFT']
+2025-09-19 21:26:01,305 - portfolio_simulation - INFO - Month 2: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:01,305 - portfolio_simulation - INFO - Month 2: ₹193,377.56 allocated per stock
+2025-09-19 21:26:01,307 - portfolio_simulation - INFO - Month 2 completed in 0.86s: Return -0.68%, Capital ₹960,302.26
+2025-09-19 21:26:01,307 - portfolio_simulation - INFO - Processing month 3/12: 2024-03-01 to 2024-03-31
+2025-09-19 21:26:01,308 - portfolio_simulation - INFO - Selected stocks for month 3: ['FCL', 'INDIANB', 'SPARC', 'PIIND', 'TEAMLEASE']
+2025-09-19 21:26:01,832 - portfolio_simulation - ERROR - Unexpected error fetching SPARC: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:26:01,833 - portfolio_simulation - WARNING - SPARC has no data for 2024-03-01 to 2024-03-31
+2025-09-19 21:26:02,012 - portfolio_simulation - INFO - Month 3: 4 valid stocks, 1 failed stocks
+2025-09-19 21:26:02,012 - portfolio_simulation - INFO - Month 3: ₹240,075.56 allocated per stock
+2025-09-19 21:26:02,013 - portfolio_simulation - INFO - Month 3 completed in 0.71s: Return 4.39%, Capital ₹1,002,506.42
+2025-09-19 21:26:02,013 - portfolio_simulation - INFO - Processing month 4/12: 2024-04-01 to 2024-04-30
+2025-09-19 21:26:02,015 - portfolio_simulation - INFO - Selected stocks for month 4: ['ABFRL', 'HOMEFIRST', 'MARUTI', 'CGPOWER', 'DRREDDY']
+2025-09-19 21:26:02,677 - portfolio_simulation - INFO - Month 4: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:02,677 - portfolio_simulation - INFO - Month 4: ₹200,501.28 allocated per stock
+2025-09-19 21:26:02,678 - portfolio_simulation - INFO - Month 4 completed in 0.66s: Return -5.58%, Capital ₹946,516.85
+2025-09-19 21:26:02,678 - portfolio_simulation - INFO - Processing month 5/12: 2024-05-01 to 2024-05-31
+2025-09-19 21:26:02,679 - portfolio_simulation - INFO - Selected stocks for month 5: ['BOROLTD', 'BLS', 'JAIBALAJI', 'SHRIRAMFIN', 'SUNTV']
+2025-09-19 21:26:03,266 - portfolio_simulation - ERROR - Unexpected error fetching JAIBALAJI: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:26:03,266 - portfolio_simulation - WARNING - JAIBALAJI has no data for 2024-05-01 to 2024-05-31
+2025-09-19 21:26:03,679 - portfolio_simulation - INFO - Month 5: 4 valid stocks, 1 failed stocks
+2025-09-19 21:26:03,679 - portfolio_simulation - INFO - Month 5: ₹236,629.21 allocated per stock
+2025-09-19 21:26:03,680 - portfolio_simulation - INFO - Month 5 completed in 1.00s: Return 8.26%, Capital ₹1,024,704.34
+2025-09-19 21:26:03,680 - portfolio_simulation - INFO - Processing month 6/12: 2024-06-01 to 2024-06-30
+2025-09-19 21:26:03,681 - portfolio_simulation - INFO - Selected stocks for month 6: ['LTIM', 'STARHEALTH', 'TIINDIA', 'VMM', 'KPRMILL']
+2025-09-19 21:26:15,385 - portfolio_simulation - ERROR - Unexpected error fetching VMM: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:26:15,385 - portfolio_simulation - WARNING - VMM has no data for 2024-06-01 to 2024-06-30
+2025-09-19 21:26:15,539 - portfolio_simulation - INFO - Month 6: 4 valid stocks, 1 failed stocks
+2025-09-19 21:26:15,540 - portfolio_simulation - INFO - Month 6: ₹256,176.08 allocated per stock
+2025-09-19 21:26:15,542 - portfolio_simulation - INFO - Month 6 completed in 11.86s: Return -9.24%, Capital ₹930,070.23
+2025-09-19 21:26:15,542 - portfolio_simulation - INFO - Processing month 7/12: 2024-07-01 to 2024-07-31
+2025-09-19 21:26:15,544 - portfolio_simulation - INFO - Selected stocks for month 7: ['BLACKBUCK', 'LXCHEM', 'BIRLACORPN', 'UJJIVANSFB', 'EICHERMOT']
+2025-09-19 21:26:15,794 - portfolio_simulation - ERROR - Unexpected error fetching BLACKBUCK: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:26:15,795 - portfolio_simulation - WARNING - BLACKBUCK has no data for 2024-07-01 to 2024-07-31
+2025-09-19 21:26:16,207 - portfolio_simulation - INFO - Month 7: 4 valid stocks, 1 failed stocks
+2025-09-19 21:26:16,208 - portfolio_simulation - INFO - Month 7: ₹232,517.56 allocated per stock
+2025-09-19 21:26:16,210 - portfolio_simulation - INFO - Month 7 completed in 0.67s: Return -1.30%, Capital ₹918,001.81
+2025-09-19 21:26:16,210 - portfolio_simulation - INFO - Processing month 8/12: 2024-08-01 to 2024-08-31
+2025-09-19 21:26:16,213 - portfolio_simulation - INFO - Selected stocks for month 8: ['NETWEB', 'MANYAVAR', 'EMAMILTD', 'SWANCORP', 'LINDEINDIA']
+2025-09-19 21:26:17,028 - portfolio_simulation - INFO - Month 8: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:17,028 - portfolio_simulation - INFO - Month 8: ₹183,600.36 allocated per stock
+2025-09-19 21:26:17,030 - portfolio_simulation - INFO - Month 8 completed in 0.82s: Return 0.40%, Capital ₹921,664.88
+2025-09-19 21:26:17,030 - portfolio_simulation - INFO - Processing month 9/12: 2024-09-01 to 2024-09-30
+2025-09-19 21:26:17,033 - portfolio_simulation - INFO - Selected stocks for month 9: ['SANOFICONR', 'PPLPHARMA', 'NFL', 'IIFLCAPS', 'BORORENEW']
+2025-09-19 21:26:17,666 - portfolio_simulation - INFO - Month 9: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:17,666 - portfolio_simulation - INFO - Month 9: ₹184,332.98 allocated per stock
+2025-09-19 21:26:17,668 - portfolio_simulation - INFO - Month 9 completed in 0.64s: Return -4.01%, Capital ₹884,748.59
+2025-09-19 21:26:17,668 - portfolio_simulation - INFO - Processing month 10/12: 2024-10-01 to 2024-10-31
+2025-09-19 21:26:17,672 - portfolio_simulation - INFO - Selected stocks for month 10: ['INDIAGLYCO', 'LLOYDSENGG', 'GAIL', 'CRISIL', 'DODLA']
+2025-09-19 21:26:17,698 - portfolio_simulation - INFO - Month 10: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:17,699 - portfolio_simulation - INFO - Month 10: ₹176,949.72 allocated per stock
+2025-09-19 21:26:17,699 - portfolio_simulation - INFO - Month 10 completed in 0.03s: Return 4.72%, Capital ₹926,551.11
+2025-09-19 21:26:17,699 - portfolio_simulation - INFO - Processing month 11/12: 2024-11-01 to 2024-11-30
+2025-09-19 21:26:17,701 - portfolio_simulation - INFO - Selected stocks for month 11: ['TEJASNET', 'CONCOR', 'BLS', 'AUBANK', 'ENDURANCE']
+2025-09-19 21:26:18,362 - portfolio_simulation - INFO - Month 11: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:18,362 - portfolio_simulation - INFO - Month 11: ₹185,310.22 allocated per stock
+2025-09-19 21:26:18,364 - portfolio_simulation - INFO - Month 11 completed in 0.66s: Return 3.33%, Capital ₹957,405.26
+2025-09-19 21:26:18,365 - portfolio_simulation - INFO - Processing month 12/12: 2024-12-01 to 2024-12-31
+2025-09-19 21:26:18,370 - portfolio_simulation - INFO - Selected stocks for month 12: ['IRCON', 'EPIGRAL', 'SWIGGY', 'SBIN', 'ARVINDFASN']
+2025-09-19 21:26:19,309 - portfolio_simulation - INFO - Month 12: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:19,309 - portfolio_simulation - INFO - Month 12: ₹191,481.05 allocated per stock
+2025-09-19 21:26:19,311 - portfolio_simulation - INFO - Month 12 completed in 0.95s: Return 4.07%, Capital ₹996,381.84
+2025-09-19 21:26:19,311 - portfolio_simulation - INFO - Simulation completed in 20.56s: Total return -0.36%, 55 trades executed
+2025-09-19 21:26:19,311 - portfolio_simulation - INFO - API Statistics: 60 calls, 5 failures, 91.7% success rate
+2025-09-19 21:26:19,312 - portfolio_simulation - INFO - Simulation 1 completed successfully in 20.56s (Total return: -0.36%)
+2025-09-19 21:26:19,325 - portfolio_simulation - INFO - Starting simulation 2/10
+2025-09-19 21:26:19,326 - portfolio_simulation - INFO - Starting portfolio simulation: 2024-01-01 to 2024-12-31, 5 stocks, ₹1,000,000 capital
+2025-09-19 21:26:19,326 - portfolio_simulation - INFO - Generated 12 monthly periods for simulation
+2025-09-19 21:26:19,327 - portfolio_simulation - INFO - Processing month 1/12: 2024-01-01 to 2024-01-31
+2025-09-19 21:26:19,332 - portfolio_simulation - INFO - Selected stocks for month 1: ['TBOTEK', 'VOLTAS', 'CONCORDBIO', 'SOUTHBANK', 'EPIGRAL']
+2025-09-19 21:26:19,591 - portfolio_simulation - ERROR - Unexpected error fetching TBOTEK: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:26:19,591 - portfolio_simulation - WARNING - TBOTEK has no data for 2024-01-01 to 2024-01-31
+2025-09-19 21:26:20,555 - portfolio_simulation - INFO - Month 1: 4 valid stocks, 1 failed stocks
+2025-09-19 21:26:20,555 - portfolio_simulation - INFO - Month 1: ₹250,000.00 allocated per stock
+2025-09-19 21:26:20,558 - portfolio_simulation - INFO - Month 1 completed in 1.23s: Return -6.32%, Capital ₹936,750.21
+2025-09-19 21:26:20,558 - portfolio_simulation - INFO - Processing month 2/12: 2024-02-01 to 2024-02-29
+2025-09-19 21:26:20,562 - portfolio_simulation - INFO - Selected stocks for month 2: ['NESTLEIND', 'STAR', 'ICICIGI', 'AIAENG', 'SHAILY']
+2025-09-19 21:26:21,434 - portfolio_simulation - INFO - Month 2: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:21,434 - portfolio_simulation - INFO - Month 2: ₹187,350.04 allocated per stock
+2025-09-19 21:26:21,436 - portfolio_simulation - INFO - Month 2 completed in 0.88s: Return -6.78%, Capital ₹873,235.25
+2025-09-19 21:26:21,436 - portfolio_simulation - INFO - Processing month 3/12: 2024-03-01 to 2024-03-31
+2025-09-19 21:26:21,441 - portfolio_simulation - INFO - Selected stocks for month 3: ['VIPIND', 'BSOFT', 'EMUDHRA', 'INDIASHLTR', 'GREENPLY']
+2025-09-19 21:26:22,296 - portfolio_simulation - INFO - Month 3: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:22,296 - portfolio_simulation - INFO - Month 3: ₹174,647.05 allocated per stock
+2025-09-19 21:26:22,299 - portfolio_simulation - INFO - Month 3 completed in 0.86s: Return 3.64%, Capital ₹905,041.20
+2025-09-19 21:26:22,300 - portfolio_simulation - INFO - Processing month 4/12: 2024-04-01 to 2024-04-30
+2025-09-19 21:26:22,304 - portfolio_simulation - INFO - Selected stocks for month 4: ['HCG', 'UNIMECH', 'BBTC', 'ENDURANCE', 'FDC']
+2025-09-19 21:26:22,675 - portfolio_simulation - ERROR - Unexpected error fetching UNIMECH: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:26:22,676 - portfolio_simulation - WARNING - UNIMECH has no data for 2024-04-01 to 2024-04-30
+2025-09-19 21:26:23,088 - portfolio_simulation - INFO - Month 4: 4 valid stocks, 1 failed stocks
+2025-09-19 21:26:23,088 - portfolio_simulation - INFO - Month 4: ₹226,260.30 allocated per stock
+2025-09-19 21:26:23,090 - portfolio_simulation - INFO - Month 4 completed in 0.79s: Return -4.86%, Capital ₹861,059.58
+2025-09-19 21:26:23,090 - portfolio_simulation - INFO - Processing month 5/12: 2024-05-01 to 2024-05-31
+2025-09-19 21:26:23,093 - portfolio_simulation - INFO - Selected stocks for month 5: ['GMDCLTD', 'CMSINFO', 'GLENMARK', 'SHARDACROP', 'PAGEIND']
+2025-09-19 21:26:23,951 - portfolio_simulation - INFO - Month 5: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:23,952 - portfolio_simulation - INFO - Month 5: ₹172,211.92 allocated per stock
+2025-09-19 21:26:23,954 - portfolio_simulation - INFO - Month 5 completed in 0.86s: Return -3.06%, Capital ₹834,715.83
+2025-09-19 21:26:23,954 - portfolio_simulation - INFO - Processing month 6/12: 2024-06-01 to 2024-06-30
+2025-09-19 21:26:23,957 - portfolio_simulation - INFO - Selected stocks for month 6: ['AAVAS', 'MAHLIFE', 'COCHINSHIP', 'ZFCVINDIA', 'CGCL']
+2025-09-19 21:26:25,089 - portfolio_simulation - INFO - Month 6: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:25,089 - portfolio_simulation - INFO - Month 6: ₹166,943.17 allocated per stock
+2025-09-19 21:26:25,091 - portfolio_simulation - INFO - Month 6 completed in 1.14s: Return -2.62%, Capital ₹812,823.43
+2025-09-19 21:26:25,092 - portfolio_simulation - INFO - Processing month 7/12: 2024-07-01 to 2024-07-31
+2025-09-19 21:26:25,094 - portfolio_simulation - INFO - Selected stocks for month 7: ['CLEAN', 'DALBHARAT', 'LMW', 'MUTHOOTFIN', 'RESPONIND']
+2025-09-19 21:26:26,147 - portfolio_simulation - INFO - Month 7: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:26,147 - portfolio_simulation - INFO - Month 7: ₹162,564.69 allocated per stock
+2025-09-19 21:26:26,149 - portfolio_simulation - INFO - Month 7 completed in 1.06s: Return 1.37%, Capital ₹823,967.02
+2025-09-19 21:26:26,149 - portfolio_simulation - INFO - Processing month 8/12: 2024-08-01 to 2024-08-31
+2025-09-19 21:26:26,152 - portfolio_simulation - INFO - Selected stocks for month 8: ['ABB', 'EQUITASBNK', 'DABUR', 'ADANIPOWER', 'EIHOTEL']
+2025-09-19 21:26:27,088 - portfolio_simulation - INFO - Month 8: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:27,088 - portfolio_simulation - INFO - Month 8: ₹164,793.40 allocated per stock
+2025-09-19 21:26:27,090 - portfolio_simulation - INFO - Month 8 completed in 0.94s: Return 4.62%, Capital ₹862,011.24
+2025-09-19 21:26:27,090 - portfolio_simulation - INFO - Processing month 9/12: 2024-09-01 to 2024-09-30
+2025-09-19 21:26:27,093 - portfolio_simulation - INFO - Selected stocks for month 9: ['CRAFTSMAN', 'KPRMILL', 'FINCABLES', 'SOBHA', 'AFFLE']
+2025-09-19 21:26:27,874 - portfolio_simulation - INFO - Month 9: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:27,874 - portfolio_simulation - INFO - Month 9: ₹172,402.25 allocated per stock
+2025-09-19 21:26:27,876 - portfolio_simulation - INFO - Month 9 completed in 0.79s: Return -6.39%, Capital ₹806,916.75
+2025-09-19 21:26:27,876 - portfolio_simulation - INFO - Processing month 10/12: 2024-10-01 to 2024-10-31
+2025-09-19 21:26:27,879 - portfolio_simulation - INFO - Selected stocks for month 10: ['KPIL', 'ALLCARGO', 'ABREL', 'CYIENT', 'SAMHI']
+2025-09-19 21:26:28,428 - portfolio_simulation - INFO - Month 10: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:28,429 - portfolio_simulation - INFO - Month 10: ₹161,383.35 allocated per stock
+2025-09-19 21:26:28,431 - portfolio_simulation - INFO - Month 10 completed in 0.55s: Return 8.81%, Capital ₹877,966.31
+2025-09-19 21:26:28,431 - portfolio_simulation - INFO - Processing month 11/12: 2024-11-01 to 2024-11-30
+2025-09-19 21:26:28,434 - portfolio_simulation - INFO - Selected stocks for month 11: ['SUPRAJIT', 'IREDA', 'WESTLIFE', 'SKFINDIA', 'AKUMS']
+2025-09-19 21:26:29,349 - portfolio_simulation - INFO - Month 11: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:29,350 - portfolio_simulation - INFO - Month 11: ₹175,593.26 allocated per stock
+2025-09-19 21:26:29,352 - portfolio_simulation - INFO - Month 11 completed in 0.92s: Return 11.46%, Capital ₹978,603.77
+2025-09-19 21:26:29,352 - portfolio_simulation - INFO - Processing month 12/12: 2024-12-01 to 2024-12-31
+2025-09-19 21:26:29,356 - portfolio_simulation - INFO - Selected stocks for month 12: ['UPL', 'GESHIP', 'HUDCO', 'JAICORPLTD', 'ENDURANCE']
+2025-09-19 21:26:30,262 - portfolio_simulation - INFO - Month 12: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:30,263 - portfolio_simulation - INFO - Month 12: ₹195,720.75 allocated per stock
+2025-09-19 21:26:30,264 - portfolio_simulation - INFO - Month 12 completed in 0.91s: Return 10.79%, Capital ₹1,084,194.80
+2025-09-19 21:26:30,265 - portfolio_simulation - INFO - Simulation completed in 10.94s: Total return 8.42%, 58 trades executed
+2025-09-19 21:26:30,265 - portfolio_simulation - INFO - API Statistics: 60 calls, 2 failures, 96.7% success rate
+2025-09-19 21:26:30,265 - portfolio_simulation - INFO - Simulation 2 completed successfully in 10.94s (Total return: 8.42%)
+2025-09-19 21:26:30,278 - portfolio_simulation - INFO - Starting simulation 3/10
+2025-09-19 21:26:30,278 - portfolio_simulation - INFO - Starting portfolio simulation: 2024-01-01 to 2024-12-31, 5 stocks, ₹1,000,000 capital
+2025-09-19 21:26:30,280 - portfolio_simulation - INFO - Generated 12 monthly periods for simulation
+2025-09-19 21:26:30,280 - portfolio_simulation - INFO - Processing month 1/12: 2024-01-01 to 2024-01-31
+2025-09-19 21:26:30,286 - portfolio_simulation - INFO - Selected stocks for month 1: ['BBL', 'STLTECH', 'FDC', 'BASF', 'RPOWER']
+2025-09-19 21:26:31,192 - portfolio_simulation - INFO - Month 1: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:31,192 - portfolio_simulation - INFO - Month 1: ₹200,000.00 allocated per stock
+2025-09-19 21:26:31,194 - portfolio_simulation - INFO - Month 1 completed in 0.91s: Return -5.04%, Capital ₹949,590.96
+2025-09-19 21:26:31,194 - portfolio_simulation - INFO - Processing month 2/12: 2024-02-01 to 2024-02-29
+2025-09-19 21:26:31,197 - portfolio_simulation - INFO - Selected stocks for month 2: ['WIPRO', 'NAVA', 'USHAMART', 'AARTIIND', 'JSWSTEEL']
+2025-09-19 21:26:32,404 - portfolio_simulation - INFO - Month 2: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:32,404 - portfolio_simulation - INFO - Month 2: ₹189,918.19 allocated per stock
+2025-09-19 21:26:32,406 - portfolio_simulation - INFO - Month 2 completed in 1.21s: Return 0.41%, Capital ₹953,483.24
+2025-09-19 21:26:32,406 - portfolio_simulation - INFO - Processing month 3/12: 2024-03-01 to 2024-03-31
+2025-09-19 21:26:32,409 - portfolio_simulation - INFO - Selected stocks for month 3: ['KSCL', 'NBCC', 'ADANIPORTS', 'STLTECH', 'JINDALSTEL']
+2025-09-19 21:26:33,296 - portfolio_simulation - INFO - Month 3: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:33,297 - portfolio_simulation - INFO - Month 3: ₹190,696.65 allocated per stock
+2025-09-19 21:26:33,298 - portfolio_simulation - INFO - Month 3 completed in 0.89s: Return 9.32%, Capital ₹1,042,370.06
+2025-09-19 21:26:33,298 - portfolio_simulation - INFO - Processing month 4/12: 2024-04-01 to 2024-04-30
+2025-09-19 21:26:33,301 - portfolio_simulation - INFO - Selected stocks for month 4: ['ROSSARI', 'NAM-INDIA', 'IRCTC', 'SAREGAMA', 'ZYDUSWELL']
+2025-09-19 21:26:33,953 - portfolio_simulation - INFO - Month 4: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:33,953 - portfolio_simulation - INFO - Month 4: ₹208,474.01 allocated per stock
+2025-09-19 21:26:33,956 - portfolio_simulation - INFO - Month 4 completed in 0.66s: Return -12.56%, Capital ₹911,458.61
+2025-09-19 21:26:33,956 - portfolio_simulation - INFO - Processing month 5/12: 2024-05-01 to 2024-05-31
+2025-09-19 21:26:33,960 - portfolio_simulation - INFO - Selected stocks for month 5: ['NIVABUPA', 'KRBL', 'BECTORFOOD', 'KANSAINER', 'GPIL']
+2025-09-19 21:26:34,177 - portfolio_simulation - ERROR - Unexpected error fetching NIVABUPA: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:26:34,177 - portfolio_simulation - WARNING - NIVABUPA has no data for 2024-05-01 to 2024-05-31
+2025-09-19 21:26:35,129 - portfolio_simulation - INFO - Month 5: 4 valid stocks, 1 failed stocks
+2025-09-19 21:26:35,129 - portfolio_simulation - INFO - Month 5: ₹227,864.65 allocated per stock
+2025-09-19 21:26:35,131 - portfolio_simulation - INFO - Month 5 completed in 1.17s: Return 3.74%, Capital ₹945,575.86
+2025-09-19 21:26:35,131 - portfolio_simulation - INFO - Processing month 6/12: 2024-06-01 to 2024-06-30
+2025-09-19 21:26:35,134 - portfolio_simulation - INFO - Selected stocks for month 6: ['JKIL', 'TIINDIA', 'PETRONET', 'MOTHERSON', 'SWSOLAR']
+2025-09-19 21:26:35,768 - portfolio_simulation - INFO - Month 6: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:35,768 - portfolio_simulation - INFO - Month 6: ₹189,115.17 allocated per stock
+2025-09-19 21:26:35,771 - portfolio_simulation - INFO - Month 6 completed in 0.64s: Return -8.11%, Capital ₹868,923.54
+2025-09-19 21:26:35,771 - portfolio_simulation - INFO - Processing month 7/12: 2024-07-01 to 2024-07-31
+2025-09-19 21:26:35,774 - portfolio_simulation - INFO - Selected stocks for month 7: ['RAJESHEXPO', 'UCOBANK', 'ROUTE', 'ESCORTS', 'WELENT']
+2025-09-19 21:26:36,928 - portfolio_simulation - INFO - Month 7: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:36,929 - portfolio_simulation - INFO - Month 7: ₹173,784.71 allocated per stock
+2025-09-19 21:26:36,930 - portfolio_simulation - INFO - Month 7 completed in 1.16s: Return -3.41%, Capital ₹839,256.25
+2025-09-19 21:26:36,930 - portfolio_simulation - INFO - Processing month 8/12: 2024-08-01 to 2024-08-31
+2025-09-19 21:26:36,933 - portfolio_simulation - INFO - Selected stocks for month 8: ['ROUTE', 'ECLERX', 'INDIAMART', 'HDFCAMC', 'SAIL']
+2025-09-19 21:26:37,383 - portfolio_simulation - INFO - Month 8: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:37,383 - portfolio_simulation - INFO - Month 8: ₹167,851.25 allocated per stock
+2025-09-19 21:26:37,384 - portfolio_simulation - INFO - Month 8 completed in 0.45s: Return -2.20%, Capital ₹820,758.89
+2025-09-19 21:26:37,385 - portfolio_simulation - INFO - Processing month 9/12: 2024-09-01 to 2024-09-30
+2025-09-19 21:26:37,388 - portfolio_simulation - INFO - Selected stocks for month 9: ['IDBI', 'ARVINDFASN', 'DATAPATTNS', 'CYIENT', 'RELIANCE']
+2025-09-19 21:26:38,025 - portfolio_simulation - INFO - Month 9: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:38,026 - portfolio_simulation - INFO - Month 9: ₹164,151.78 allocated per stock
+2025-09-19 21:26:38,027 - portfolio_simulation - INFO - Month 9 completed in 0.64s: Return 3.55%, Capital ₹849,928.16
+2025-09-19 21:26:38,027 - portfolio_simulation - INFO - Processing month 10/12: 2024-10-01 to 2024-10-31
+2025-09-19 21:26:38,030 - portfolio_simulation - INFO - Selected stocks for month 10: ['KSCL', 'DCBBANK', 'PNB', 'AMBER', 'SUMICHEM']
+2025-09-19 21:26:38,723 - portfolio_simulation - INFO - Month 10: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:38,723 - portfolio_simulation - INFO - Month 10: ₹169,985.63 allocated per stock
+2025-09-19 21:26:38,725 - portfolio_simulation - INFO - Month 10 completed in 0.70s: Return -0.27%, Capital ₹847,632.50
+2025-09-19 21:26:38,725 - portfolio_simulation - INFO - Processing month 11/12: 2024-11-01 to 2024-11-30
+2025-09-19 21:26:38,728 - portfolio_simulation - INFO - Selected stocks for month 11: ['SHARDACROP', 'NTPCGREEN', 'TATAELXSI', 'RESPONIND', 'OFSS']
+2025-09-19 21:26:39,794 - portfolio_simulation - INFO - Month 11: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:39,794 - portfolio_simulation - INFO - Month 11: ₹169,526.50 allocated per stock
+2025-09-19 21:26:39,796 - portfolio_simulation - INFO - Month 11 completed in 1.07s: Return -1.31%, Capital ₹836,492.84
+2025-09-19 21:26:39,796 - portfolio_simulation - INFO - Processing month 12/12: 2024-12-01 to 2024-12-31
+2025-09-19 21:26:39,799 - portfolio_simulation - INFO - Selected stocks for month 12: ['INDGN', 'GREENPANEL', 'AARTIPHARM', 'PRESTIGE', 'INTELLECT']
+2025-09-19 21:26:40,692 - portfolio_simulation - INFO - Month 12: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:40,692 - portfolio_simulation - INFO - Month 12: ₹167,298.57 allocated per stock
+2025-09-19 21:26:40,693 - portfolio_simulation - INFO - Month 12 completed in 0.90s: Return -1.94%, Capital ₹820,232.34
+2025-09-19 21:26:40,694 - portfolio_simulation - INFO - Simulation completed in 10.42s: Total return -17.98%, 59 trades executed
+2025-09-19 21:26:40,694 - portfolio_simulation - INFO - API Statistics: 60 calls, 1 failures, 98.3% success rate
+2025-09-19 21:26:40,694 - portfolio_simulation - INFO - Simulation 3 completed successfully in 10.42s (Total return: -17.98%)
+2025-09-19 21:26:40,707 - portfolio_simulation - INFO - Starting simulation 4/10
+2025-09-19 21:26:40,708 - portfolio_simulation - INFO - Starting portfolio simulation: 2024-01-01 to 2024-12-31, 5 stocks, ₹1,000,000 capital
+2025-09-19 21:26:40,709 - portfolio_simulation - INFO - Generated 12 monthly periods for simulation
+2025-09-19 21:26:40,709 - portfolio_simulation - INFO - Processing month 1/12: 2024-01-01 to 2024-01-31
+2025-09-19 21:26:40,714 - portfolio_simulation - INFO - Selected stocks for month 1: ['PNCINFRA', 'STARHEALTH', 'MSUMI', 'PNBHOUSING', 'HCG']
+2025-09-19 21:26:42,066 - portfolio_simulation - INFO - Month 1: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:42,066 - portfolio_simulation - INFO - Month 1: ₹200,000.00 allocated per stock
+2025-09-19 21:26:42,069 - portfolio_simulation - INFO - Month 1 completed in 1.36s: Return -5.51%, Capital ₹944,934.46
+2025-09-19 21:26:42,069 - portfolio_simulation - INFO - Processing month 2/12: 2024-02-01 to 2024-02-29
+2025-09-19 21:26:42,073 - portfolio_simulation - INFO - Selected stocks for month 2: ['TATAPOWER', 'DCMSHRIRAM', 'VENUSPIPES', 'AEGISLOG', 'BAJAJHFL']
+2025-09-19 21:26:42,779 - portfolio_simulation - ERROR - Unexpected error fetching BAJAJHFL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:26:42,779 - portfolio_simulation - WARNING - BAJAJHFL has no data for 2024-02-01 to 2024-02-29
+2025-09-19 21:26:42,779 - portfolio_simulation - INFO - Month 2: 4 valid stocks, 1 failed stocks
+2025-09-19 21:26:42,779 - portfolio_simulation - INFO - Month 2: ₹236,233.62 allocated per stock
+2025-09-19 21:26:42,781 - portfolio_simulation - INFO - Month 2 completed in 0.71s: Return -4.94%, Capital ₹898,232.83
+2025-09-19 21:26:42,781 - portfolio_simulation - INFO - Processing month 3/12: 2024-03-01 to 2024-03-31
+2025-09-19 21:26:42,785 - portfolio_simulation - INFO - Selected stocks for month 3: ['LICI', 'MIDHANI', 'JKCEMENT', 'RELIANCE', 'BALKRISIND']
+2025-09-19 21:26:43,670 - portfolio_simulation - INFO - Month 3: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:43,670 - portfolio_simulation - INFO - Month 3: ₹179,646.57 allocated per stock
+2025-09-19 21:26:43,672 - portfolio_simulation - INFO - Month 3 completed in 0.89s: Return 7.05%, Capital ₹961,525.75
+2025-09-19 21:26:43,672 - portfolio_simulation - INFO - Processing month 4/12: 2024-04-01 to 2024-04-30
+2025-09-19 21:26:43,675 - portfolio_simulation - INFO - Selected stocks for month 4: ['WABAG', 'ACMESOLAR', 'TATAMOTORS', 'GREENPLY', 'IIFLCAPS']
+2025-09-19 21:26:44,130 - portfolio_simulation - ERROR - Unexpected error fetching ACMESOLAR: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:26:44,131 - portfolio_simulation - WARNING - ACMESOLAR has no data for 2024-04-01 to 2024-04-30
+2025-09-19 21:26:44,586 - portfolio_simulation - INFO - Month 4: 4 valid stocks, 1 failed stocks
+2025-09-19 21:26:44,586 - portfolio_simulation - INFO - Month 4: ₹240,381.44 allocated per stock
+2025-09-19 21:26:44,587 - portfolio_simulation - INFO - Month 4 completed in 0.92s: Return -9.94%, Capital ₹865,948.46
+2025-09-19 21:26:44,588 - portfolio_simulation - INFO - Processing month 5/12: 2024-05-01 to 2024-05-31
+2025-09-19 21:26:44,590 - portfolio_simulation - INFO - Selected stocks for month 5: ['ZENSARTECH', 'MMTC', 'HATHWAY', 'HEIDELBERG', 'RAYMOND']
+2025-09-19 21:26:45,613 - portfolio_simulation - INFO - Month 5: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:45,613 - portfolio_simulation - INFO - Month 5: ₹173,189.69 allocated per stock
+2025-09-19 21:26:45,614 - portfolio_simulation - INFO - Month 5 completed in 1.03s: Return 3.20%, Capital ₹893,695.15
+2025-09-19 21:26:45,615 - portfolio_simulation - INFO - Processing month 6/12: 2024-06-01 to 2024-06-30
+2025-09-19 21:26:45,618 - portfolio_simulation - INFO - Selected stocks for month 6: ['ALLCARGO', 'GODREJPROP', 'GRAVITA', 'INDIASHLTR', 'ASIANPAINT']
+2025-09-19 21:26:46,939 - portfolio_simulation - INFO - Month 6: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:46,939 - portfolio_simulation - INFO - Month 6: ₹178,739.03 allocated per stock
+2025-09-19 21:26:46,941 - portfolio_simulation - INFO - Month 6 completed in 1.33s: Return -6.81%, Capital ₹832,868.71
+2025-09-19 21:26:46,942 - portfolio_simulation - INFO - Processing month 7/12: 2024-07-01 to 2024-07-31
+2025-09-19 21:26:46,944 - portfolio_simulation - INFO - Selected stocks for month 7: ['IEX', 'RAJESHEXPO', 'FINPIPE', 'HINDALCO', 'UTIAMC']
+2025-09-19 21:26:47,641 - portfolio_simulation - INFO - Month 7: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:47,641 - portfolio_simulation - INFO - Month 7: ₹166,573.74 allocated per stock
+2025-09-19 21:26:47,643 - portfolio_simulation - INFO - Month 7 completed in 0.70s: Return -0.81%, Capital ₹826,104.58
+2025-09-19 21:26:47,643 - portfolio_simulation - INFO - Processing month 8/12: 2024-08-01 to 2024-08-31
+2025-09-19 21:26:47,646 - portfolio_simulation - INFO - Selected stocks for month 8: ['JKIL', 'AKUMS', 'ASIANPAINT', 'HINDUNILVR', 'STARHEALTH']
+2025-09-19 21:26:48,562 - portfolio_simulation - INFO - Month 8: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:48,562 - portfolio_simulation - INFO - Month 8: ₹165,220.92 allocated per stock
+2025-09-19 21:26:48,564 - portfolio_simulation - INFO - Month 8 completed in 0.92s: Return -2.88%, Capital ₹802,335.63
+2025-09-19 21:26:48,564 - portfolio_simulation - INFO - Processing month 9/12: 2024-09-01 to 2024-09-30
+2025-09-19 21:26:48,567 - portfolio_simulation - INFO - Selected stocks for month 9: ['BEML', 'GOKEX', 'RRKABEL', 'WEBELSOLAR', 'SBIN']
+2025-09-19 21:26:49,305 - portfolio_simulation - ERROR - Unexpected error fetching WEBELSOLAR: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:26:49,305 - portfolio_simulation - WARNING - WEBELSOLAR has no data for 2024-09-01 to 2024-09-30
+2025-09-19 21:26:49,543 - portfolio_simulation - INFO - Month 9: 4 valid stocks, 1 failed stocks
+2025-09-19 21:26:49,543 - portfolio_simulation - INFO - Month 9: ₹200,583.91 allocated per stock
+2025-09-19 21:26:49,544 - portfolio_simulation - INFO - Month 9 completed in 0.98s: Return -1.26%, Capital ₹792,212.32
+2025-09-19 21:26:49,545 - portfolio_simulation - INFO - Processing month 10/12: 2024-10-01 to 2024-10-31
+2025-09-19 21:26:49,548 - portfolio_simulation - INFO - Selected stocks for month 10: ['ECLERX', 'SARDAEN', 'KIRLPNU', 'RCF', 'FCL']
+2025-09-19 21:26:50,038 - portfolio_simulation - INFO - Month 10: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:50,039 - portfolio_simulation - INFO - Month 10: ₹158,442.46 allocated per stock
+2025-09-19 21:26:50,040 - portfolio_simulation - INFO - Month 10 completed in 0.50s: Return 3.92%, Capital ₹823,293.51
+2025-09-19 21:26:50,040 - portfolio_simulation - INFO - Processing month 11/12: 2024-11-01 to 2024-11-30
+2025-09-19 21:26:50,042 - portfolio_simulation - INFO - Selected stocks for month 11: ['LTF', 'BSE', 'HFCL', 'HAVELLS', 'ZAGGLE']
+2025-09-19 21:26:50,977 - portfolio_simulation - ERROR - Unexpected error fetching ZAGGLE: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:26:50,977 - portfolio_simulation - WARNING - ZAGGLE has no data for 2024-11-01 to 2024-11-30
+2025-09-19 21:26:50,977 - portfolio_simulation - INFO - Month 11: 4 valid stocks, 1 failed stocks
+2025-09-19 21:26:50,977 - portfolio_simulation - INFO - Month 11: ₹205,823.38 allocated per stock
+2025-09-19 21:26:50,979 - portfolio_simulation - INFO - Month 11 completed in 0.94s: Return -3.37%, Capital ₹795,542.24
+2025-09-19 21:26:50,979 - portfolio_simulation - INFO - Processing month 12/12: 2024-12-01 to 2024-12-31
+2025-09-19 21:26:50,984 - portfolio_simulation - INFO - Selected stocks for month 12: ['ASHOKA', 'BSE', 'VAIBHAVGBL', 'GOKEX', 'JSL']
+2025-09-19 21:26:51,927 - portfolio_simulation - INFO - Month 12: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:51,927 - portfolio_simulation - INFO - Month 12: ₹159,108.45 allocated per stock
+2025-09-19 21:26:51,929 - portfolio_simulation - INFO - Month 12 completed in 0.95s: Return -8.30%, Capital ₹729,516.57
+2025-09-19 21:26:51,929 - portfolio_simulation - INFO - Simulation completed in 11.22s: Total return -27.05%, 56 trades executed
+2025-09-19 21:26:51,929 - portfolio_simulation - INFO - API Statistics: 60 calls, 4 failures, 93.3% success rate
+2025-09-19 21:26:51,930 - portfolio_simulation - INFO - Simulation 4 completed successfully in 11.22s (Total return: -27.05%)
+2025-09-19 21:26:51,941 - portfolio_simulation - INFO - Starting simulation 5/10
+2025-09-19 21:26:51,942 - portfolio_simulation - INFO - Starting portfolio simulation: 2024-01-01 to 2024-12-31, 5 stocks, ₹1,000,000 capital
+2025-09-19 21:26:51,942 - portfolio_simulation - INFO - Generated 12 monthly periods for simulation
+2025-09-19 21:26:51,943 - portfolio_simulation - INFO - Processing month 1/12: 2024-01-01 to 2024-01-31
+2025-09-19 21:26:51,947 - portfolio_simulation - INFO - Selected stocks for month 1: ['STLTECH', 'JSWHL', 'KSB', 'HONAUT', 'EPIGRAL']
+2025-09-19 21:26:52,657 - portfolio_simulation - INFO - Month 1: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:52,657 - portfolio_simulation - INFO - Month 1: ₹200,000.00 allocated per stock
+2025-09-19 21:26:52,659 - portfolio_simulation - INFO - Month 1 completed in 0.72s: Return -4.76%, Capital ₹952,369.12
+2025-09-19 21:26:52,660 - portfolio_simulation - INFO - Processing month 2/12: 2024-02-01 to 2024-02-29
+2025-09-19 21:26:52,663 - portfolio_simulation - INFO - Selected stocks for month 2: ['TEJASNET', 'AEGISLOG', 'AHLUCONT', 'SUPREMEIND', 'ASHOKA']
+2025-09-19 21:26:53,349 - portfolio_simulation - INFO - Month 2: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:53,349 - portfolio_simulation - INFO - Month 2: ₹190,473.82 allocated per stock
+2025-09-19 21:26:53,351 - portfolio_simulation - INFO - Month 2 completed in 0.69s: Return -6.55%, Capital ₹889,989.19
+2025-09-19 21:26:53,351 - portfolio_simulation - INFO - Processing month 3/12: 2024-03-01 to 2024-03-31
+2025-09-19 21:26:53,355 - portfolio_simulation - INFO - Selected stocks for month 3: ['UJJIVANSFB', 'VBL', 'TIINDIA', 'LT', 'GREENPLY']
+2025-09-19 21:26:54,024 - portfolio_simulation - INFO - Month 3: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:54,024 - portfolio_simulation - INFO - Month 3: ₹177,997.84 allocated per stock
+2025-09-19 21:26:54,025 - portfolio_simulation - INFO - Month 3 completed in 0.67s: Return 5.86%, Capital ₹942,118.36
+2025-09-19 21:26:54,025 - portfolio_simulation - INFO - Processing month 4/12: 2024-04-01 to 2024-04-30
+2025-09-19 21:26:54,027 - portfolio_simulation - INFO - Selected stocks for month 4: ['HDFCBANK', 'IOB', 'UPL', 'HDFCLIFE', 'GRSE']
+2025-09-19 21:26:55,185 - portfolio_simulation - INFO - Month 4: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:55,185 - portfolio_simulation - INFO - Month 4: ₹188,423.67 allocated per stock
+2025-09-19 21:26:55,187 - portfolio_simulation - INFO - Month 4 completed in 1.16s: Return -5.55%, Capital ₹889,868.11
+2025-09-19 21:26:55,187 - portfolio_simulation - INFO - Processing month 5/12: 2024-05-01 to 2024-05-31
+2025-09-19 21:26:55,190 - portfolio_simulation - INFO - Selected stocks for month 5: ['RKFORGE', 'CEMPRO', 'VGUARD', 'MANYAVAR', 'JINDWORLD']
+2025-09-19 21:26:56,345 - portfolio_simulation - INFO - Month 5: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:56,345 - portfolio_simulation - INFO - Month 5: ₹177,973.62 allocated per stock
+2025-09-19 21:26:56,347 - portfolio_simulation - INFO - Month 5 completed in 1.16s: Return -0.55%, Capital ₹885,008.79
+2025-09-19 21:26:56,348 - portfolio_simulation - INFO - Processing month 6/12: 2024-06-01 to 2024-06-30
+2025-09-19 21:26:56,351 - portfolio_simulation - INFO - Selected stocks for month 6: ['FDC', 'PIDILITIND', 'TEJASNET', 'ATUL', 'RCF']
+2025-09-19 21:26:57,369 - portfolio_simulation - INFO - Month 6: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:57,369 - portfolio_simulation - INFO - Month 6: ₹177,001.76 allocated per stock
+2025-09-19 21:26:57,371 - portfolio_simulation - INFO - Month 6 completed in 1.02s: Return -10.38%, Capital ₹793,101.25
+2025-09-19 21:26:57,372 - portfolio_simulation - INFO - Processing month 7/12: 2024-07-01 to 2024-07-31
+2025-09-19 21:26:57,375 - portfolio_simulation - INFO - Selected stocks for month 7: ['REDINGTON', 'INDGN', 'DLF', 'APOLLOHOSP', 'MMTC']
+2025-09-19 21:26:58,687 - portfolio_simulation - INFO - Month 7: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:58,687 - portfolio_simulation - INFO - Month 7: ₹158,620.25 allocated per stock
+2025-09-19 21:26:58,689 - portfolio_simulation - INFO - Month 7 completed in 1.32s: Return -10.62%, Capital ₹708,899.27
+2025-09-19 21:26:58,689 - portfolio_simulation - INFO - Processing month 8/12: 2024-08-01 to 2024-08-31
+2025-09-19 21:26:58,692 - portfolio_simulation - INFO - Selected stocks for month 8: ['IREDA', 'APLAPOLLO', 'VOLTAMP', 'GOPAL', 'OFSS']
+2025-09-19 21:26:59,498 - portfolio_simulation - INFO - Month 8: 5 valid stocks, 0 failed stocks
+2025-09-19 21:26:59,498 - portfolio_simulation - INFO - Month 8: ₹141,779.85 allocated per stock
+2025-09-19 21:26:59,500 - portfolio_simulation - INFO - Month 8 completed in 0.81s: Return -0.39%, Capital ₹706,111.90
+2025-09-19 21:26:59,500 - portfolio_simulation - INFO - Processing month 9/12: 2024-09-01 to 2024-09-30
+2025-09-19 21:26:59,504 - portfolio_simulation - INFO - Selected stocks for month 9: ['INDIASHLTR', 'BOROLTD', 'CASTROLIND', 'APTUS', 'BAJAJHFL']
+2025-09-19 21:27:00,428 - portfolio_simulation - INFO - Month 9: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:00,428 - portfolio_simulation - INFO - Month 9: ₹141,222.38 allocated per stock
+2025-09-19 21:27:00,429 - portfolio_simulation - INFO - Month 9 completed in 0.93s: Return 0.59%, Capital ₹710,303.62
+2025-09-19 21:27:00,429 - portfolio_simulation - INFO - Processing month 10/12: 2024-10-01 to 2024-10-31
+2025-09-19 21:27:00,432 - portfolio_simulation - INFO - Selected stocks for month 10: ['INOXGREEN', 'PGEL', 'RESPONIND', 'BAJAJHIND', 'SULA']
+2025-09-19 21:27:01,285 - portfolio_simulation - INFO - Month 10: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:01,285 - portfolio_simulation - INFO - Month 10: ₹142,060.72 allocated per stock
+2025-09-19 21:27:01,288 - portfolio_simulation - INFO - Month 10 completed in 0.86s: Return 13.91%, Capital ₹809,127.20
+2025-09-19 21:27:01,288 - portfolio_simulation - INFO - Processing month 11/12: 2024-11-01 to 2024-11-30
+2025-09-19 21:27:01,292 - portfolio_simulation - INFO - Selected stocks for month 11: ['ASTRAZEN', 'ABB', 'SAREGAMA', 'IDBI', 'RADICO']
+2025-09-19 21:27:02,665 - portfolio_simulation - INFO - Month 11: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:02,666 - portfolio_simulation - INFO - Month 11: ₹161,825.44 allocated per stock
+2025-09-19 21:27:02,668 - portfolio_simulation - INFO - Month 11 completed in 1.38s: Return 5.11%, Capital ₹850,474.57
+2025-09-19 21:27:02,668 - portfolio_simulation - INFO - Processing month 12/12: 2024-12-01 to 2024-12-31
+2025-09-19 21:27:02,672 - portfolio_simulation - INFO - Selected stocks for month 12: ['DODLA', 'NETWORK18', 'ALKYLAMINE', 'PNB', 'BRIGADE']
+2025-09-19 21:27:03,929 - portfolio_simulation - INFO - Month 12: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:03,930 - portfolio_simulation - INFO - Month 12: ₹170,094.91 allocated per stock
+2025-09-19 21:27:03,931 - portfolio_simulation - INFO - Month 12 completed in 1.26s: Return 6.83%, Capital ₹908,565.03
+2025-09-19 21:27:03,932 - portfolio_simulation - INFO - Simulation completed in 11.99s: Total return -9.14%, 60 trades executed
+2025-09-19 21:27:03,932 - portfolio_simulation - INFO - API Statistics: 60 calls, 0 failures, 100.0% success rate
+2025-09-19 21:27:03,932 - portfolio_simulation - INFO - Simulation 5 completed successfully in 11.99s (Total return: -9.14%)
+2025-09-19 21:27:03,946 - portfolio_simulation - INFO - Starting simulation 6/10
+2025-09-19 21:27:03,946 - portfolio_simulation - INFO - Starting portfolio simulation: 2024-01-01 to 2024-12-31, 5 stocks, ₹1,000,000 capital
+2025-09-19 21:27:03,948 - portfolio_simulation - INFO - Generated 12 monthly periods for simulation
+2025-09-19 21:27:03,948 - portfolio_simulation - INFO - Processing month 1/12: 2024-01-01 to 2024-01-31
+2025-09-19 21:27:03,953 - portfolio_simulation - INFO - Selected stocks for month 1: ['CANBK', 'ARVINDFASN', 'EPIGRAL', 'IREDA', 'JTLIND']
+2025-09-19 21:27:04,719 - portfolio_simulation - INFO - Month 1: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:04,720 - portfolio_simulation - INFO - Month 1: ₹200,000.00 allocated per stock
+2025-09-19 21:27:04,722 - portfolio_simulation - INFO - Month 1 completed in 0.77s: Return -15.50%, Capital ₹844,957.87
+2025-09-19 21:27:04,722 - portfolio_simulation - INFO - Processing month 2/12: 2024-02-01 to 2024-02-29
+2025-09-19 21:27:04,727 - portfolio_simulation - INFO - Selected stocks for month 2: ['DCAL', 'GRAPHITE', 'JSWSTEEL', 'CRAFTSMAN', 'SUDARSCHEM']
+2025-09-19 21:27:05,680 - portfolio_simulation - INFO - Month 2: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:05,680 - portfolio_simulation - INFO - Month 2: ₹168,991.57 allocated per stock
+2025-09-19 21:27:05,682 - portfolio_simulation - INFO - Month 2 completed in 0.96s: Return -6.93%, Capital ₹786,377.40
+2025-09-19 21:27:05,682 - portfolio_simulation - INFO - Processing month 3/12: 2024-03-01 to 2024-03-31
+2025-09-19 21:27:05,686 - portfolio_simulation - INFO - Selected stocks for month 3: ['MSUMI', 'ASTRAMICRO', 'ADANIGREEN', 'ISGEC', 'EMAMILTD']
+2025-09-19 21:27:06,550 - portfolio_simulation - INFO - Month 3: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:06,550 - portfolio_simulation - INFO - Month 3: ₹157,275.48 allocated per stock
+2025-09-19 21:27:06,552 - portfolio_simulation - INFO - Month 3 completed in 0.87s: Return 5.06%, Capital ₹826,133.62
+2025-09-19 21:27:06,552 - portfolio_simulation - INFO - Processing month 4/12: 2024-04-01 to 2024-04-30
+2025-09-19 21:27:06,555 - portfolio_simulation - INFO - Selected stocks for month 4: ['360ONE', 'HOMEFIRST', 'HEIDELBERG', 'PNGJL', 'MFSL']
+2025-09-19 21:27:07,062 - portfolio_simulation - ERROR - Unexpected error fetching PNGJL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:27:07,062 - portfolio_simulation - WARNING - PNGJL has no data for 2024-04-01 to 2024-04-30
+2025-09-19 21:27:07,270 - portfolio_simulation - INFO - Month 4: 4 valid stocks, 1 failed stocks
+2025-09-19 21:27:07,270 - portfolio_simulation - INFO - Month 4: ₹206,533.40 allocated per stock
+2025-09-19 21:27:07,272 - portfolio_simulation - INFO - Month 4 completed in 0.72s: Return -0.97%, Capital ₹818,100.08
+2025-09-19 21:27:07,272 - portfolio_simulation - INFO - Processing month 5/12: 2024-05-01 to 2024-05-31
+2025-09-19 21:27:07,275 - portfolio_simulation - INFO - Selected stocks for month 5: ['VIPIND', 'LATENTVIEW', 'TECHNOE', 'RAYMONDLSL', 'MPHASIS']
+2025-09-19 21:27:07,458 - portfolio_simulation - ERROR - Unexpected error fetching LATENTVIEW: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:27:07,458 - portfolio_simulation - WARNING - LATENTVIEW has no data for 2024-05-01 to 2024-05-31
+2025-09-19 21:27:07,857 - portfolio_simulation - ERROR - Unexpected error fetching RAYMONDLSL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:27:07,858 - portfolio_simulation - WARNING - RAYMONDLSL has no data for 2024-05-01 to 2024-05-31
+2025-09-19 21:27:08,067 - portfolio_simulation - INFO - Month 5: 3 valid stocks, 2 failed stocks
+2025-09-19 21:27:08,067 - portfolio_simulation - INFO - Month 5: ₹272,700.03 allocated per stock
+2025-09-19 21:27:08,068 - portfolio_simulation - INFO - Month 5 completed in 0.80s: Return -1.71%, Capital ₹804,098.78
+2025-09-19 21:27:08,068 - portfolio_simulation - INFO - Processing month 6/12: 2024-06-01 to 2024-06-30
+2025-09-19 21:27:08,071 - portfolio_simulation - INFO - Selected stocks for month 6: ['BIRLACORPN', 'VBL', 'POWERMECH', 'MARICO', 'APOLLOTYRE']
+2025-09-19 21:27:08,769 - portfolio_simulation - INFO - Month 6: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:08,770 - portfolio_simulation - INFO - Month 6: ₹160,819.76 allocated per stock
+2025-09-19 21:27:08,772 - portfolio_simulation - INFO - Month 6 completed in 0.70s: Return -6.50%, Capital ₹751,863.59
+2025-09-19 21:27:08,772 - portfolio_simulation - INFO - Processing month 7/12: 2024-07-01 to 2024-07-31
+2025-09-19 21:27:08,775 - portfolio_simulation - INFO - Selected stocks for month 7: ['BAJAJFINSV', 'NEOGEN', 'GMRAIRPORT', 'M&MFIN', 'FIRSTCRY']
+2025-09-19 21:27:09,541 - portfolio_simulation - ERROR - Unexpected error fetching FIRSTCRY: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:27:09,541 - portfolio_simulation - WARNING - FIRSTCRY has no data for 2024-07-01 to 2024-07-31
+2025-09-19 21:27:09,541 - portfolio_simulation - INFO - Month 7: 4 valid stocks, 1 failed stocks
+2025-09-19 21:27:09,541 - portfolio_simulation - INFO - Month 7: ₹187,965.90 allocated per stock
+2025-09-19 21:27:09,543 - portfolio_simulation - INFO - Month 7 completed in 0.77s: Return -3.58%, Capital ₹724,939.53
+2025-09-19 21:27:09,543 - portfolio_simulation - INFO - Processing month 8/12: 2024-08-01 to 2024-08-31
+2025-09-19 21:27:09,546 - portfolio_simulation - INFO - Selected stocks for month 8: ['PPLPHARMA', 'SUNPHARMA', 'BSOFT', 'PFC', 'TATAINVEST']
+2025-09-19 21:27:10,649 - portfolio_simulation - INFO - Month 8: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:10,650 - portfolio_simulation - INFO - Month 8: ₹144,987.91 allocated per stock
+2025-09-19 21:27:10,651 - portfolio_simulation - INFO - Month 8 completed in 1.11s: Return -6.31%, Capital ₹679,205.69
+2025-09-19 21:27:10,652 - portfolio_simulation - INFO - Processing month 9/12: 2024-09-01 to 2024-09-30
+2025-09-19 21:27:10,656 - portfolio_simulation - INFO - Selected stocks for month 9: ['DHANI', 'CONCORDBIO', 'SHARDACROP', 'EASEMYTRIP', 'ACE']
+2025-09-19 21:27:11,479 - portfolio_simulation - INFO - Month 9: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:11,480 - portfolio_simulation - INFO - Month 9: ₹135,841.14 allocated per stock
+2025-09-19 21:27:11,481 - portfolio_simulation - INFO - Month 9 completed in 0.83s: Return -1.17%, Capital ₹671,234.95
+2025-09-19 21:27:11,482 - portfolio_simulation - INFO - Processing month 10/12: 2024-10-01 to 2024-10-31
+2025-09-19 21:27:11,485 - portfolio_simulation - INFO - Selected stocks for month 10: ['NESCO', 'BALAMINES', 'SEQUENT', 'DBL', 'WIPRO']
+2025-09-19 21:27:11,740 - portfolio_simulation - INFO - Month 10: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:11,740 - portfolio_simulation - INFO - Month 10: ₹134,246.99 allocated per stock
+2025-09-19 21:27:11,742 - portfolio_simulation - INFO - Month 10 completed in 0.26s: Return 4.42%, Capital ₹700,899.42
+2025-09-19 21:27:11,742 - portfolio_simulation - INFO - Processing month 11/12: 2024-11-01 to 2024-11-30
+2025-09-19 21:27:11,745 - portfolio_simulation - INFO - Selected stocks for month 11: ['TEJASNET', 'IOC', 'ARVINDFASN', 'GRASIM', 'PRUDENT']
+2025-09-19 21:27:12,459 - portfolio_simulation - INFO - Month 11: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:12,459 - portfolio_simulation - INFO - Month 11: ₹140,179.88 allocated per stock
+2025-09-19 21:27:12,461 - portfolio_simulation - INFO - Month 11 completed in 0.72s: Return 5.87%, Capital ₹742,073.50
+2025-09-19 21:27:12,461 - portfolio_simulation - INFO - Processing month 12/12: 2024-12-01 to 2024-12-31
+2025-09-19 21:27:12,464 - portfolio_simulation - INFO - Selected stocks for month 12: ['DRREDDY', 'TEJASNET', 'INGERRAND', 'BLUEJET', 'LLOYDSME']
+2025-09-19 21:27:13,642 - portfolio_simulation - INFO - Month 12: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:13,643 - portfolio_simulation - INFO - Month 12: ₹148,414.70 allocated per stock
+2025-09-19 21:27:13,644 - portfolio_simulation - INFO - Month 12 completed in 1.18s: Return -0.81%, Capital ₹736,037.21
+2025-09-19 21:27:13,644 - portfolio_simulation - INFO - Simulation completed in 9.70s: Total return -26.40%, 56 trades executed
+2025-09-19 21:27:13,644 - portfolio_simulation - INFO - API Statistics: 60 calls, 4 failures, 93.3% success rate
+2025-09-19 21:27:13,645 - portfolio_simulation - INFO - Simulation 6 completed successfully in 9.70s (Total return: -26.40%)
+2025-09-19 21:27:13,658 - portfolio_simulation - INFO - Starting simulation 7/10
+2025-09-19 21:27:13,659 - portfolio_simulation - INFO - Starting portfolio simulation: 2024-01-01 to 2024-12-31, 5 stocks, ₹1,000,000 capital
+2025-09-19 21:27:13,660 - portfolio_simulation - INFO - Generated 12 monthly periods for simulation
+2025-09-19 21:27:13,660 - portfolio_simulation - INFO - Processing month 1/12: 2024-01-01 to 2024-01-31
+2025-09-19 21:27:13,665 - portfolio_simulation - INFO - Selected stocks for month 1: ['IRB', 'RENUKA', 'MMTC', 'JYOTICNC', 'AMBUJACEM']
+2025-09-19 21:27:14,638 - portfolio_simulation - INFO - Month 1: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:14,639 - portfolio_simulation - INFO - Month 1: ₹200,000.00 allocated per stock
+2025-09-19 21:27:14,641 - portfolio_simulation - INFO - Month 1 completed in 0.98s: Return -15.37%, Capital ₹846,320.35
+2025-09-19 21:27:14,641 - portfolio_simulation - INFO - Processing month 2/12: 2024-02-01 to 2024-02-29
+2025-09-19 21:27:14,644 - portfolio_simulation - INFO - Selected stocks for month 2: ['SAIL', 'DIVISLAB', 'RELIGARE', 'FINCABLES', 'UBL']
+2025-09-19 21:27:15,728 - portfolio_simulation - INFO - Month 2: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:15,728 - portfolio_simulation - INFO - Month 2: ₹169,264.07 allocated per stock
+2025-09-19 21:27:15,730 - portfolio_simulation - INFO - Month 2 completed in 1.09s: Return 5.97%, Capital ₹896,834.63
+2025-09-19 21:27:15,731 - portfolio_simulation - INFO - Processing month 3/12: 2024-03-01 to 2024-03-31
+2025-09-19 21:27:15,734 - portfolio_simulation - INFO - Selected stocks for month 3: ['KAJARIACER', 'TIINDIA', 'INDIGOPNTS', 'SAMMAANCAP', 'TVSSCS']
+2025-09-19 21:27:16,419 - portfolio_simulation - INFO - Month 3: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:16,419 - portfolio_simulation - INFO - Month 3: ₹179,366.93 allocated per stock
+2025-09-19 21:27:16,421 - portfolio_simulation - INFO - Month 3 completed in 0.69s: Return 9.65%, Capital ₹983,354.66
+2025-09-19 21:27:16,421 - portfolio_simulation - INFO - Processing month 4/12: 2024-04-01 to 2024-04-30
+2025-09-19 21:27:16,424 - portfolio_simulation - INFO - Selected stocks for month 4: ['AARTIDRUGS', 'CUMMINSIND', 'BLACKBUCK', 'BDL', 'NFL']
+2025-09-19 21:27:16,825 - portfolio_simulation - ERROR - Unexpected error fetching BLACKBUCK: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:27:16,826 - portfolio_simulation - WARNING - BLACKBUCK has no data for 2024-04-01 to 2024-04-30
+2025-09-19 21:27:17,049 - portfolio_simulation - INFO - Month 4: 4 valid stocks, 1 failed stocks
+2025-09-19 21:27:17,049 - portfolio_simulation - INFO - Month 4: ₹245,838.67 allocated per stock
+2025-09-19 21:27:17,051 - portfolio_simulation - INFO - Month 4 completed in 0.63s: Return -10.34%, Capital ₹881,657.31
+2025-09-19 21:27:17,051 - portfolio_simulation - INFO - Processing month 5/12: 2024-05-01 to 2024-05-31
+2025-09-19 21:27:17,054 - portfolio_simulation - INFO - Selected stocks for month 5: ['BBL', 'AFFLE', 'GODREJIND', 'NIACL', 'RESPONIND']
+2025-09-19 21:27:18,159 - portfolio_simulation - INFO - Month 5: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:18,160 - portfolio_simulation - INFO - Month 5: ₹176,331.46 allocated per stock
+2025-09-19 21:27:18,162 - portfolio_simulation - INFO - Month 5 completed in 1.11s: Return -1.89%, Capital ₹864,951.26
+2025-09-19 21:27:18,162 - portfolio_simulation - INFO - Processing month 6/12: 2024-06-01 to 2024-06-30
+2025-09-19 21:27:18,165 - portfolio_simulation - INFO - Selected stocks for month 6: ['ACE', 'KEI', 'PNCINFRA', 'ABFRL', 'SHOPERSTOP']
+2025-09-19 21:27:19,233 - portfolio_simulation - INFO - Month 6: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:19,234 - portfolio_simulation - INFO - Month 6: ₹172,990.25 allocated per stock
+2025-09-19 21:27:19,236 - portfolio_simulation - INFO - Month 6 completed in 1.07s: Return -1.99%, Capital ₹847,739.23
+2025-09-19 21:27:19,236 - portfolio_simulation - INFO - Processing month 7/12: 2024-07-01 to 2024-07-31
+2025-09-19 21:27:19,240 - portfolio_simulation - INFO - Selected stocks for month 7: ['TIIL', 'JWL', 'CHAMBLFERT', 'COCHINSHIP', 'SOBHA']
+2025-09-19 21:27:20,357 - portfolio_simulation - INFO - Month 7: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:20,358 - portfolio_simulation - INFO - Month 7: ₹169,547.85 allocated per stock
+2025-09-19 21:27:20,358 - portfolio_simulation - INFO - Month 7 completed in 1.12s: Return -3.68%, Capital ₹816,506.94
+2025-09-19 21:27:20,358 - portfolio_simulation - INFO - Processing month 8/12: 2024-08-01 to 2024-08-31
+2025-09-19 21:27:20,359 - portfolio_simulation - INFO - Selected stocks for month 8: ['MAXHEALTH', 'RAJESHEXPO', 'APOLLOTYRE', 'INDUSTOWER', 'ADANIPORTS']
+2025-09-19 21:27:21,371 - portfolio_simulation - INFO - Month 8: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:21,371 - portfolio_simulation - INFO - Month 8: ₹163,301.39 allocated per stock
+2025-09-19 21:27:21,372 - portfolio_simulation - INFO - Month 8 completed in 1.01s: Return 4.87%, Capital ₹856,269.26
+2025-09-19 21:27:21,372 - portfolio_simulation - INFO - Processing month 9/12: 2024-09-01 to 2024-09-30
+2025-09-19 21:27:21,374 - portfolio_simulation - INFO - Selected stocks for month 9: ['TATACONSUM', 'PPLPHARMA', 'LTTS', 'KSCL', 'LLOYDSENT']
+2025-09-19 21:27:22,086 - portfolio_simulation - ERROR - Unexpected error fetching LLOYDSENT: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:27:22,087 - portfolio_simulation - WARNING - LLOYDSENT has no data for 2024-09-01 to 2024-09-30
+2025-09-19 21:27:22,087 - portfolio_simulation - INFO - Month 9: 4 valid stocks, 1 failed stocks
+2025-09-19 21:27:22,087 - portfolio_simulation - INFO - Month 9: ₹214,067.31 allocated per stock
+2025-09-19 21:27:22,089 - portfolio_simulation - INFO - Month 9 completed in 0.72s: Return -1.37%, Capital ₹844,571.20
+2025-09-19 21:27:22,089 - portfolio_simulation - INFO - Processing month 10/12: 2024-10-01 to 2024-10-31
+2025-09-19 21:27:22,092 - portfolio_simulation - INFO - Selected stocks for month 10: ['POWERGRID', 'TITAGARH', 'SUPRAJIT', 'TIINDIA', 'TRITURBINE']
+2025-09-19 21:27:22,546 - portfolio_simulation - INFO - Month 10: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:22,546 - portfolio_simulation - INFO - Month 10: ₹168,914.24 allocated per stock
+2025-09-19 21:27:22,546 - portfolio_simulation - INFO - Month 10 completed in 0.46s: Return 3.45%, Capital ₹873,678.80
+2025-09-19 21:27:22,546 - portfolio_simulation - INFO - Processing month 11/12: 2024-11-01 to 2024-11-30
+2025-09-19 21:27:22,547 - portfolio_simulation - INFO - Selected stocks for month 11: ['BHARATFORG', 'INDGN', 'GESHIP', 'JSWENERGY', 'HINDZINC']
+2025-09-19 21:27:23,430 - portfolio_simulation - INFO - Month 11: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:23,431 - portfolio_simulation - INFO - Month 11: ₹174,735.76 allocated per stock
+2025-09-19 21:27:23,431 - portfolio_simulation - INFO - Month 11 completed in 0.88s: Return 6.00%, Capital ₹926,103.78
+2025-09-19 21:27:23,431 - portfolio_simulation - INFO - Processing month 12/12: 2024-12-01 to 2024-12-31
+2025-09-19 21:27:23,434 - portfolio_simulation - INFO - Selected stocks for month 12: ['GAIL', 'JTLIND', 'ANANTRAJ', 'TATAMOTORS', 'AARTIDRUGS']
+2025-09-19 21:27:23,850 - portfolio_simulation - INFO - Month 12: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:23,850 - portfolio_simulation - INFO - Month 12: ₹185,220.76 allocated per stock
+2025-09-19 21:27:23,851 - portfolio_simulation - INFO - Month 12 completed in 0.42s: Return 0.83%, Capital ₹933,813.23
+2025-09-19 21:27:23,851 - portfolio_simulation - INFO - Simulation completed in 10.19s: Total return -6.62%, 58 trades executed
+2025-09-19 21:27:23,851 - portfolio_simulation - INFO - API Statistics: 60 calls, 2 failures, 96.7% success rate
+2025-09-19 21:27:23,851 - portfolio_simulation - INFO - Simulation 7 completed successfully in 10.19s (Total return: -6.62%)
+2025-09-19 21:27:23,864 - portfolio_simulation - INFO - Starting simulation 8/10
+2025-09-19 21:27:23,864 - portfolio_simulation - INFO - Starting portfolio simulation: 2024-01-01 to 2024-12-31, 5 stocks, ₹1,000,000 capital
+2025-09-19 21:27:23,865 - portfolio_simulation - INFO - Generated 12 monthly periods for simulation
+2025-09-19 21:27:23,865 - portfolio_simulation - INFO - Processing month 1/12: 2024-01-01 to 2024-01-31
+2025-09-19 21:27:23,867 - portfolio_simulation - INFO - Selected stocks for month 1: ['GRAPHITE', 'HINDALCO', 'OLECTRA', 'KSL', 'EMCURE']
+2025-09-19 21:27:25,131 - portfolio_simulation - ERROR - Unexpected error fetching EMCURE: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:27:25,131 - portfolio_simulation - WARNING - EMCURE has no data for 2024-01-01 to 2024-01-31
+2025-09-19 21:27:25,131 - portfolio_simulation - INFO - Month 1: 4 valid stocks, 1 failed stocks
+2025-09-19 21:27:25,131 - portfolio_simulation - INFO - Month 1: ₹250,000.00 allocated per stock
+2025-09-19 21:27:25,133 - portfolio_simulation - INFO - Month 1 completed in 1.27s: Return -4.31%, Capital ₹956,876.77
+2025-09-19 21:27:25,133 - portfolio_simulation - INFO - Processing month 2/12: 2024-02-01 to 2024-02-29
+2025-09-19 21:27:25,136 - portfolio_simulation - INFO - Selected stocks for month 2: ['TRANSRAILL', 'ADANIGREEN', 'NATIONALUM', 'VSTIND', 'HEIDELBERG']
+2025-09-19 21:27:25,137 - portfolio_simulation - ERROR - Unexpected error fetching TRANSRAILL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:27:25,138 - portfolio_simulation - WARNING - TRANSRAILL has no data for 2024-02-01 to 2024-02-29
+2025-09-19 21:27:26,079 - portfolio_simulation - INFO - Month 2: 4 valid stocks, 1 failed stocks
+2025-09-19 21:27:26,079 - portfolio_simulation - INFO - Month 2: ₹239,219.19 allocated per stock
+2025-09-19 21:27:26,080 - portfolio_simulation - INFO - Month 2 completed in 0.95s: Return -1.67%, Capital ₹940,851.49
+2025-09-19 21:27:26,080 - portfolio_simulation - INFO - Processing month 3/12: 2024-03-01 to 2024-03-31
+2025-09-19 21:27:26,082 - portfolio_simulation - INFO - Selected stocks for month 3: ['NLCINDIA', 'HCLTECH', 'ISGEC', 'SOUTHBANK', 'SBILIFE']
+2025-09-19 21:27:26,591 - portfolio_simulation - INFO - Month 3: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:26,591 - portfolio_simulation - INFO - Month 3: ₹188,170.30 allocated per stock
+2025-09-19 21:27:26,592 - portfolio_simulation - INFO - Month 3 completed in 0.51s: Return 3.47%, Capital ₹973,526.01
+2025-09-19 21:27:26,592 - portfolio_simulation - INFO - Processing month 4/12: 2024-04-01 to 2024-04-30
+2025-09-19 21:27:26,593 - portfolio_simulation - INFO - Selected stocks for month 4: ['SUPRAJIT', 'JINDWORLD', 'AGI', 'MOTILALOFS', 'AMBER']
+2025-09-19 21:27:27,541 - portfolio_simulation - INFO - Month 4: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:27,541 - portfolio_simulation - INFO - Month 4: ₹194,705.20 allocated per stock
+2025-09-19 21:27:27,542 - portfolio_simulation - INFO - Month 4 completed in 0.95s: Return -7.96%, Capital ₹896,005.97
+2025-09-19 21:27:27,542 - portfolio_simulation - INFO - Processing month 5/12: 2024-05-01 to 2024-05-31
+2025-09-19 21:27:27,543 - portfolio_simulation - INFO - Selected stocks for month 5: ['HCG', 'SHILPAMED', 'CRAFTSMAN', 'STARCEMENT', 'INDIASHLTR']
+2025-09-19 21:27:28,657 - portfolio_simulation - INFO - Month 5: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:28,657 - portfolio_simulation - INFO - Month 5: ₹179,201.19 allocated per stock
+2025-09-19 21:27:28,658 - portfolio_simulation - INFO - Month 5 completed in 1.12s: Return 6.82%, Capital ₹957,077.70
+2025-09-19 21:27:28,658 - portfolio_simulation - INFO - Processing month 6/12: 2024-06-01 to 2024-06-30
+2025-09-19 21:27:28,660 - portfolio_simulation - INFO - Selected stocks for month 6: ['INDIGOPNTS', 'JYOTICNC', 'RAINBOW', 'EASEMYTRIP', 'IGIL']
+2025-09-19 21:27:29,329 - portfolio_simulation - ERROR - Unexpected error fetching IGIL: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:27:29,329 - portfolio_simulation - WARNING - IGIL has no data for 2024-06-01 to 2024-06-30
+2025-09-19 21:27:29,329 - portfolio_simulation - INFO - Month 6: 4 valid stocks, 1 failed stocks
+2025-09-19 21:27:29,329 - portfolio_simulation - INFO - Month 6: ₹239,269.42 allocated per stock
+2025-09-19 21:27:29,330 - portfolio_simulation - INFO - Month 6 completed in 0.67s: Return -5.51%, Capital ₹904,299.88
+2025-09-19 21:27:29,331 - portfolio_simulation - INFO - Processing month 7/12: 2024-07-01 to 2024-07-31
+2025-09-19 21:27:29,333 - portfolio_simulation - INFO - Selected stocks for month 7: ['CREDITACC', 'OPTIEMUS', 'RPOWER', 'VOLTAMP', 'HIKAL']
+2025-09-19 21:27:30,163 - portfolio_simulation - INFO - Month 7: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:30,163 - portfolio_simulation - INFO - Month 7: ₹180,859.98 allocated per stock
+2025-09-19 21:27:30,165 - portfolio_simulation - INFO - Month 7 completed in 0.83s: Return -10.61%, Capital ₹808,309.05
+2025-09-19 21:27:30,165 - portfolio_simulation - INFO - Processing month 8/12: 2024-08-01 to 2024-08-31
+2025-09-19 21:27:30,170 - portfolio_simulation - INFO - Selected stocks for month 8: ['LTFOODS', 'POLYMED', 'PRINCEPIPE', 'ALKEM', 'RKFORGE']
+2025-09-19 21:27:30,839 - portfolio_simulation - INFO - Month 8: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:30,839 - portfolio_simulation - INFO - Month 8: ₹161,661.81 allocated per stock
+2025-09-19 21:27:30,842 - portfolio_simulation - INFO - Month 8 completed in 0.68s: Return -10.81%, Capital ₹720,945.78
+2025-09-19 21:27:30,842 - portfolio_simulation - INFO - Processing month 9/12: 2024-09-01 to 2024-09-30
+2025-09-19 21:27:30,844 - portfolio_simulation - INFO - Selected stocks for month 9: ['OIL', 'BEPL', 'TCS', 'HONAUT', 'COALINDIA']
+2025-09-19 21:27:31,717 - portfolio_simulation - INFO - Month 9: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:31,717 - portfolio_simulation - INFO - Month 9: ₹144,189.16 allocated per stock
+2025-09-19 21:27:31,719 - portfolio_simulation - INFO - Month 9 completed in 0.88s: Return 8.55%, Capital ₹782,610.77
+2025-09-19 21:27:31,719 - portfolio_simulation - INFO - Processing month 10/12: 2024-10-01 to 2024-10-31
+2025-09-19 21:27:31,723 - portfolio_simulation - INFO - Selected stocks for month 10: ['ENGINERSIN', 'SANOFICONR', 'TIMETECHNO', 'SAGILITY', 'CANBK']
+2025-09-19 21:27:31,909 - portfolio_simulation - ERROR - Unexpected error fetching SAGILITY: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:27:31,909 - portfolio_simulation - WARNING - SAGILITY has no data for 2024-10-01 to 2024-10-31
+2025-09-19 21:27:31,917 - portfolio_simulation - INFO - Month 10: 4 valid stocks, 1 failed stocks
+2025-09-19 21:27:31,917 - portfolio_simulation - INFO - Month 10: ₹195,652.69 allocated per stock
+2025-09-19 21:27:31,918 - portfolio_simulation - INFO - Month 10 completed in 0.20s: Return 4.19%, Capital ₹815,399.90
+2025-09-19 21:27:31,919 - portfolio_simulation - INFO - Processing month 11/12: 2024-11-01 to 2024-11-30
+2025-09-19 21:27:31,921 - portfolio_simulation - INFO - Selected stocks for month 11: ['AETHER', 'RELIANCE', 'ANANTRAJ', 'USHAMART', 'PTC']
+2025-09-19 21:27:32,855 - portfolio_simulation - INFO - Month 11: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:32,856 - portfolio_simulation - INFO - Month 11: ₹163,079.98 allocated per stock
+2025-09-19 21:27:32,858 - portfolio_simulation - INFO - Month 11 completed in 0.94s: Return 7.79%, Capital ₹878,896.80
+2025-09-19 21:27:32,858 - portfolio_simulation - INFO - Processing month 12/12: 2024-12-01 to 2024-12-31
+2025-09-19 21:27:32,861 - portfolio_simulation - INFO - Selected stocks for month 12: ['PRESTIGE', 'ASTRAMICRO', 'WHIRLPOOL', 'STLTECH', 'ACC']
+2025-09-19 21:27:33,368 - portfolio_simulation - INFO - Month 12: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:33,368 - portfolio_simulation - INFO - Month 12: ₹175,779.36 allocated per stock
+2025-09-19 21:27:33,370 - portfolio_simulation - INFO - Month 12 completed in 0.51s: Return 4.69%, Capital ₹920,079.27
+2025-09-19 21:27:33,371 - portfolio_simulation - INFO - Simulation completed in 9.51s: Total return -7.99%, 56 trades executed
+2025-09-19 21:27:33,371 - portfolio_simulation - INFO - API Statistics: 60 calls, 4 failures, 93.3% success rate
+2025-09-19 21:27:33,371 - portfolio_simulation - INFO - Simulation 8 completed successfully in 9.51s (Total return: -7.99%)
+2025-09-19 21:27:33,384 - portfolio_simulation - INFO - Starting simulation 9/10
+2025-09-19 21:27:33,385 - portfolio_simulation - INFO - Starting portfolio simulation: 2024-01-01 to 2024-12-31, 5 stocks, ₹1,000,000 capital
+2025-09-19 21:27:33,387 - portfolio_simulation - INFO - Generated 12 monthly periods for simulation
+2025-09-19 21:27:33,387 - portfolio_simulation - INFO - Processing month 1/12: 2024-01-01 to 2024-01-31
+2025-09-19 21:27:33,395 - portfolio_simulation - INFO - Selected stocks for month 1: ['PNB', 'LTTS', 'CIEINDIA', 'KAJARIACER', 'TITAN']
+2025-09-19 21:27:34,469 - portfolio_simulation - INFO - Month 1: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:34,470 - portfolio_simulation - INFO - Month 1: ₹200,000.00 allocated per stock
+2025-09-19 21:27:34,472 - portfolio_simulation - INFO - Month 1 completed in 1.09s: Return -3.48%, Capital ₹965,170.00
+2025-09-19 21:27:34,473 - portfolio_simulation - INFO - Processing month 2/12: 2024-02-01 to 2024-02-29
+2025-09-19 21:27:34,476 - portfolio_simulation - INFO - Selected stocks for month 2: ['TARC', 'CGPOWER', 'NAUKRI', 'GREAVESCOT', 'PIIND']
+2025-09-19 21:27:34,644 - portfolio_simulation - ERROR - Unexpected error fetching TARC: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:27:34,644 - portfolio_simulation - WARNING - TARC has no data for 2024-02-01 to 2024-02-29
+2025-09-19 21:27:35,599 - portfolio_simulation - INFO - Month 2: 4 valid stocks, 1 failed stocks
+2025-09-19 21:27:35,599 - portfolio_simulation - INFO - Month 2: ₹241,292.50 allocated per stock
+2025-09-19 21:27:35,601 - portfolio_simulation - INFO - Month 2 completed in 1.13s: Return 1.06%, Capital ₹975,444.73
+2025-09-19 21:27:35,601 - portfolio_simulation - INFO - Processing month 3/12: 2024-03-01 to 2024-03-31
+2025-09-19 21:27:35,605 - portfolio_simulation - INFO - Selected stocks for month 3: ['EMAMILTD', 'GOPAL', 'CANBK', 'TRIVENI', 'EMBDL']
+2025-09-19 21:27:36,310 - portfolio_simulation - INFO - Month 3: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:36,310 - portfolio_simulation - INFO - Month 3: ₹195,088.95 allocated per stock
+2025-09-19 21:27:36,312 - portfolio_simulation - INFO - Month 3 completed in 0.71s: Return 2.53%, Capital ₹1,000,090.37
+2025-09-19 21:27:36,312 - portfolio_simulation - INFO - Processing month 4/12: 2024-04-01 to 2024-04-30
+2025-09-19 21:27:36,315 - portfolio_simulation - INFO - Selected stocks for month 4: ['PTC', 'LTTS', 'FCL', 'REFEX', 'MAHSCOOTER']
+2025-09-19 21:27:37,143 - portfolio_simulation - INFO - Month 4: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:37,143 - portfolio_simulation - INFO - Month 4: ₹200,018.07 allocated per stock
+2025-09-19 21:27:37,145 - portfolio_simulation - INFO - Month 4 completed in 0.83s: Return -4.21%, Capital ₹958,027.13
+2025-09-19 21:27:37,145 - portfolio_simulation - INFO - Processing month 5/12: 2024-05-01 to 2024-05-31
+2025-09-19 21:27:37,148 - portfolio_simulation - INFO - Selected stocks for month 5: ['BEL', 'GREAVESCOT', 'MAPMYINDIA', 'TARC', 'UCOBANK']
+2025-09-19 21:27:38,108 - portfolio_simulation - INFO - Month 5: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:38,108 - portfolio_simulation - INFO - Month 5: ₹191,605.43 allocated per stock
+2025-09-19 21:27:38,109 - portfolio_simulation - INFO - Month 5 completed in 0.96s: Return -1.01%, Capital ₹948,379.50
+2025-09-19 21:27:38,110 - portfolio_simulation - INFO - Processing month 6/12: 2024-06-01 to 2024-06-30
+2025-09-19 21:27:38,112 - portfolio_simulation - INFO - Selected stocks for month 6: ['ALIVUS', 'BANDHANBNK', 'ASTRAZEN', 'CERA', 'GRANULES']
+2025-09-19 21:27:38,807 - portfolio_simulation - INFO - Month 6: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:38,807 - portfolio_simulation - INFO - Month 6: ₹189,675.90 allocated per stock
+2025-09-19 21:27:38,808 - portfolio_simulation - INFO - Month 6 completed in 0.70s: Return -7.98%, Capital ₹872,681.05
+2025-09-19 21:27:38,809 - portfolio_simulation - INFO - Processing month 7/12: 2024-07-01 to 2024-07-31
+2025-09-19 21:27:38,811 - portfolio_simulation - INFO - Selected stocks for month 7: ['NESCO', 'BALRAMCHIN', 'JKPAPER', 'NMDC', 'BHARTIARTL']
+2025-09-19 21:27:40,073 - portfolio_simulation - INFO - Month 7: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:40,073 - portfolio_simulation - INFO - Month 7: ₹174,536.21 allocated per stock
+2025-09-19 21:27:40,075 - portfolio_simulation - INFO - Month 7 completed in 1.27s: Return -0.93%, Capital ₹864,531.73
+2025-09-19 21:27:40,075 - portfolio_simulation - INFO - Processing month 8/12: 2024-08-01 to 2024-08-31
+2025-09-19 21:27:40,078 - portfolio_simulation - INFO - Selected stocks for month 8: ['LEMONTREE', 'EPIGRAL', 'NCC', 'CYIENT', 'EMCURE']
+2025-09-19 21:27:40,521 - portfolio_simulation - INFO - Month 8: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:40,521 - portfolio_simulation - INFO - Month 8: ₹172,906.35 allocated per stock
+2025-09-19 21:27:40,522 - portfolio_simulation - INFO - Month 8 completed in 0.45s: Return -1.12%, Capital ₹854,816.85
+2025-09-19 21:27:40,522 - portfolio_simulation - INFO - Processing month 9/12: 2024-09-01 to 2024-09-30
+2025-09-19 21:27:40,523 - portfolio_simulation - INFO - Selected stocks for month 9: ['GARFIBRES', 'MASTEK', 'HEMIPROP', 'STLTECH', 'RELIGARE']
+2025-09-19 21:27:41,338 - portfolio_simulation - INFO - Month 9: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:41,339 - portfolio_simulation - INFO - Month 9: ₹170,963.37 allocated per stock
+2025-09-19 21:27:41,340 - portfolio_simulation - INFO - Month 9 completed in 0.82s: Return 0.71%, Capital ₹860,870.42
+2025-09-19 21:27:41,341 - portfolio_simulation - INFO - Processing month 10/12: 2024-10-01 to 2024-10-31
+2025-09-19 21:27:41,343 - portfolio_simulation - INFO - Selected stocks for month 10: ['ASHOKA', 'SAIL', 'GLAXO', 'EICHERMOT', 'POLYMED']
+2025-09-19 21:27:41,826 - portfolio_simulation - INFO - Month 10: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:41,827 - portfolio_simulation - INFO - Month 10: ₹172,174.08 allocated per stock
+2025-09-19 21:27:41,828 - portfolio_simulation - INFO - Month 10 completed in 0.49s: Return 1.79%, Capital ₹876,295.66
+2025-09-19 21:27:41,828 - portfolio_simulation - INFO - Processing month 11/12: 2024-11-01 to 2024-11-30
+2025-09-19 21:27:41,829 - portfolio_simulation - INFO - Selected stocks for month 11: ['ZENTEC', 'DODLA', 'CHOLAHLDNG', 'VOLTAMP', 'BHARTIARTL']
+2025-09-19 21:27:42,738 - portfolio_simulation - INFO - Month 11: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:42,738 - portfolio_simulation - INFO - Month 11: ₹175,259.13 allocated per stock
+2025-09-19 21:27:42,740 - portfolio_simulation - INFO - Month 11 completed in 0.91s: Return 6.33%, Capital ₹931,745.41
+2025-09-19 21:27:42,740 - portfolio_simulation - INFO - Processing month 12/12: 2024-12-01 to 2024-12-31
+2025-09-19 21:27:42,743 - portfolio_simulation - INFO - Selected stocks for month 12: ['SBIN', 'APOLLOTYRE', 'PREMIERENE', 'GMRAIRPORT', 'AWFIS']
+2025-09-19 21:27:43,411 - portfolio_simulation - INFO - Month 12: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:43,411 - portfolio_simulation - INFO - Month 12: ₹186,349.08 allocated per stock
+2025-09-19 21:27:43,412 - portfolio_simulation - INFO - Month 12 completed in 0.67s: Return 0.32%, Capital ₹934,717.46
+2025-09-19 21:27:43,413 - portfolio_simulation - INFO - Simulation completed in 10.03s: Total return -6.53%, 59 trades executed
+2025-09-19 21:27:43,413 - portfolio_simulation - INFO - API Statistics: 60 calls, 1 failures, 98.3% success rate
+2025-09-19 21:27:43,413 - portfolio_simulation - INFO - Simulation 9 completed successfully in 10.03s (Total return: -6.53%)
+2025-09-19 21:27:43,426 - portfolio_simulation - INFO - Starting simulation 10/10
+2025-09-19 21:27:43,427 - portfolio_simulation - INFO - Starting portfolio simulation: 2024-01-01 to 2024-12-31, 5 stocks, ₹1,000,000 capital
+2025-09-19 21:27:43,427 - portfolio_simulation - INFO - Generated 12 monthly periods for simulation
+2025-09-19 21:27:43,428 - portfolio_simulation - INFO - Processing month 1/12: 2024-01-01 to 2024-01-31
+2025-09-19 21:27:43,433 - portfolio_simulation - INFO - Selected stocks for month 1: ['GABRIEL', 'SPARC', 'TORNTPOWER', 'INNOVACAP', 'ACMESOLAR']
+2025-09-19 21:27:44,305 - portfolio_simulation - ERROR - Unexpected error fetching ACMESOLAR: "None of [Index(['CH_TIMESTAMP', 'CH_SERIES', 'CH_OPENING_PRICE', 'CH_TRADE_HIGH_PRICE',\n       'CH_TRADE_LOW_PRICE', 'CH_PREVIOUS_CLS_PRICE', 'CH_LAST_TRADED_PRICE',\n       'CH_CLOSING_PRICE', 'VWAP', 'CH_52WEEK_HIGH_PRICE',\n       'CH_52WEEK_LOW_PRICE', 'CH_TOT_TRADED_QTY', 'CH_TOT_TRADED_VAL',\n       'CH_TOTAL_TRADES', 'CH_SYMBOL'],\n      dtype='object')] are in the [columns]"
+2025-09-19 21:27:44,306 - portfolio_simulation - WARNING - ACMESOLAR has no data for 2024-01-01 to 2024-01-31
+2025-09-19 21:27:44,307 - portfolio_simulation - INFO - Month 1: 4 valid stocks, 1 failed stocks
+2025-09-19 21:27:44,307 - portfolio_simulation - INFO - Month 1: ₹250,000.00 allocated per stock
+2025-09-19 21:27:44,308 - portfolio_simulation - INFO - Month 1 completed in 0.88s: Return -3.01%, Capital ₹969,913.66
+2025-09-19 21:27:44,308 - portfolio_simulation - INFO - Processing month 2/12: 2024-02-01 to 2024-02-29
+2025-09-19 21:27:44,311 - portfolio_simulation - INFO - Selected stocks for month 2: ['KAJARIACER', 'PERSISTENT', 'CHALET', 'COHANCE', 'SHAREINDIA']
+2025-09-19 21:27:45,034 - portfolio_simulation - INFO - Month 2: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:45,034 - portfolio_simulation - INFO - Month 2: ₹193,982.73 allocated per stock
+2025-09-19 21:27:45,036 - portfolio_simulation - INFO - Month 2 completed in 0.73s: Return 0.74%, Capital ₹977,077.73
+2025-09-19 21:27:45,037 - portfolio_simulation - INFO - Processing month 3/12: 2024-03-01 to 2024-03-31
+2025-09-19 21:27:45,040 - portfolio_simulation - INFO - Selected stocks for month 3: ['DLF', 'AARTIDRUGS', 'IOC', 'ONGC', 'HFCL']
+2025-09-19 21:27:46,188 - portfolio_simulation - INFO - Month 3: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:46,188 - portfolio_simulation - INFO - Month 3: ₹195,415.55 allocated per stock
+2025-09-19 21:27:46,189 - portfolio_simulation - INFO - Month 3 completed in 1.15s: Return 7.49%, Capital ₹1,050,295.70
+2025-09-19 21:27:46,190 - portfolio_simulation - INFO - Processing month 4/12: 2024-04-01 to 2024-04-30
+2025-09-19 21:27:46,192 - portfolio_simulation - INFO - Selected stocks for month 4: ['ZENSARTECH', 'CYIENTDLM', 'SYNGENE', 'POLYCAB', 'IRCON']
+2025-09-19 21:27:47,122 - portfolio_simulation - INFO - Month 4: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:47,122 - portfolio_simulation - INFO - Month 4: ₹210,059.14 allocated per stock
+2025-09-19 21:27:47,124 - portfolio_simulation - INFO - Month 4 completed in 0.93s: Return -3.44%, Capital ₹1,014,116.60
+2025-09-19 21:27:47,124 - portfolio_simulation - INFO - Processing month 5/12: 2024-05-01 to 2024-05-31
+2025-09-19 21:27:47,126 - portfolio_simulation - INFO - Selected stocks for month 5: ['MINDACORP', 'JKIL', 'SWANCORP', 'BASF', 'AARTIPHARM']
+2025-09-19 21:27:48,173 - portfolio_simulation - INFO - Month 5: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:48,173 - portfolio_simulation - INFO - Month 5: ₹202,823.32 allocated per stock
+2025-09-19 21:27:48,175 - portfolio_simulation - INFO - Month 5 completed in 1.05s: Return -2.19%, Capital ₹991,864.96
+2025-09-19 21:27:48,175 - portfolio_simulation - INFO - Processing month 6/12: 2024-06-01 to 2024-06-30
+2025-09-19 21:27:48,178 - portfolio_simulation - INFO - Selected stocks for month 6: ['EPIGRAL', 'IPCALAB', 'IRCON', 'ARE&M', 'KEC']
+2025-09-19 21:27:49,095 - portfolio_simulation - INFO - Month 6: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:49,095 - portfolio_simulation - INFO - Month 6: ₹198,372.99 allocated per stock
+2025-09-19 21:27:49,097 - portfolio_simulation - INFO - Month 6 completed in 0.92s: Return -6.87%, Capital ₹923,764.22
+2025-09-19 21:27:49,097 - portfolio_simulation - INFO - Processing month 7/12: 2024-07-01 to 2024-07-31
+2025-09-19 21:27:49,100 - portfolio_simulation - INFO - Selected stocks for month 7: ['WELCORP', 'HGINFRA', 'UNITDSPR', 'PTCIL', 'AHLUCONT']
+2025-09-19 21:27:49,548 - portfolio_simulation - INFO - Month 7: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:49,549 - portfolio_simulation - INFO - Month 7: ₹184,752.84 allocated per stock
+2025-09-19 21:27:49,550 - portfolio_simulation - INFO - Month 7 completed in 0.45s: Return -7.90%, Capital ₹850,815.34
+2025-09-19 21:27:49,551 - portfolio_simulation - INFO - Processing month 8/12: 2024-08-01 to 2024-08-31
+2025-09-19 21:27:49,554 - portfolio_simulation - INFO - Selected stocks for month 8: ['RATEGAIN', 'NUVAMA', 'HAPPSTMNDS', 'ERIS', 'CASTROLIND']
+2025-09-19 21:27:50,287 - portfolio_simulation - INFO - Month 8: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:50,287 - portfolio_simulation - INFO - Month 8: ₹170,163.07 allocated per stock
+2025-09-19 21:27:50,296 - portfolio_simulation - INFO - Month 8 completed in 0.75s: Return -2.19%, Capital ₹832,196.18
+2025-09-19 21:27:50,296 - portfolio_simulation - INFO - Processing month 9/12: 2024-09-01 to 2024-09-30
+2025-09-19 21:27:50,297 - portfolio_simulation - INFO - Selected stocks for month 9: ['TEGA', 'DEVYANI', 'HINDPETRO', 'JUSTDIAL', 'RATEGAIN']
+2025-09-19 21:27:51,168 - portfolio_simulation - INFO - Month 9: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:51,169 - portfolio_simulation - INFO - Month 9: ₹166,439.24 allocated per stock
+2025-09-19 21:27:51,170 - portfolio_simulation - INFO - Month 9 completed in 0.87s: Return -1.07%, Capital ₹823,295.02
+2025-09-19 21:27:51,171 - portfolio_simulation - INFO - Processing month 10/12: 2024-10-01 to 2024-10-31
+2025-09-19 21:27:51,175 - portfolio_simulation - INFO - Selected stocks for month 10: ['MPHASIS', 'PNCINFRA', 'INDGN', 'BERGEPAINT', 'ANGELONE']
+2025-09-19 21:27:51,896 - portfolio_simulation - INFO - Month 10: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:51,896 - portfolio_simulation - INFO - Month 10: ₹164,659.00 allocated per stock
+2025-09-19 21:27:51,898 - portfolio_simulation - INFO - Month 10 completed in 0.73s: Return 11.40%, Capital ₹917,164.20
+2025-09-19 21:27:51,898 - portfolio_simulation - INFO - Processing month 11/12: 2024-11-01 to 2024-11-30
+2025-09-19 21:27:51,903 - portfolio_simulation - INFO - Selected stocks for month 11: ['FIRSTCRY', 'TVSSCS', 'CHALET', 'IIFL', 'NESCO']
+2025-09-19 21:27:52,930 - portfolio_simulation - INFO - Month 11: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:52,931 - portfolio_simulation - INFO - Month 11: ₹183,432.84 allocated per stock
+2025-09-19 21:27:52,932 - portfolio_simulation - INFO - Month 11 completed in 1.03s: Return 2.56%, Capital ₹940,620.96
+2025-09-19 21:27:52,933 - portfolio_simulation - INFO - Processing month 12/12: 2024-12-01 to 2024-12-31
+2025-09-19 21:27:52,936 - portfolio_simulation - INFO - Selected stocks for month 12: ['EMCURE', 'RAYMOND', 'TIINDIA', 'WHIRLPOOL', 'ABB']
+2025-09-19 21:27:53,657 - portfolio_simulation - INFO - Month 12: 5 valid stocks, 0 failed stocks
+2025-09-19 21:27:53,658 - portfolio_simulation - INFO - Month 12: ₹188,124.19 allocated per stock
+2025-09-19 21:27:53,660 - portfolio_simulation - INFO - Month 12 completed in 0.73s: Return 1.29%, Capital ₹952,714.75
+2025-09-19 21:27:53,660 - portfolio_simulation - INFO - Simulation completed in 10.23s: Total return -4.73%, 59 trades executed
+2025-09-19 21:27:53,660 - portfolio_simulation - INFO - API Statistics: 60 calls, 1 failures, 98.3% success rate
+2025-09-19 21:27:53,660 - portfolio_simulation - INFO - Simulation 10 completed successfully in 10.23s (Total return: -4.73%)
+2025-09-19 21:27:53,674 - portfolio_simulation - INFO - Batch completed: 10/10 successful simulations in 114.92s (avg 11.48s per simulation)
